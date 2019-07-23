@@ -1,0 +1,606 @@
+/*
+=================================================
+=========            GENERAL            =========
+=================================================
+
+[BODY]
+Set the font family, make the body take up 100%
+screen width and apply no outside margin.
+*/
+
+
+body {
+  width: 100%;
+  margin: 0;
+}
+
+/*
+[PADDING]
+Padding rules to apply to elements
+*/
+
+.padding {
+  padding: 5% !important;
+}
+
+.padding-large {
+  padding: 8%;
+}
+
+.padding-vertical {
+  padding: 5% 0% 5% 0%;
+}
+
+.padding-vertical-large {
+  padding: 8% 0% 0% 8%;
+}
+
+.padding-horizontal {
+  padding: 0% 5% 0% 5%;
+}
+
+.padding-horizontal-large {
+  padding: 0% 8% 0% 8%;
+}
+
+.padding-small {
+  padding: 2%;
+}
+
+.padding-mini {
+  padding: 1%;
+}
+
+.padding-vertical-small {
+  padding: 2% 0% 2% 0%;
+}
+
+.padding-horizontal-small {
+  padding: 0% 2% 0% 2%;
+}
+.padding-top {
+  padding-top: 5%;
+}
+
+.padding-top-small {
+  padding-top: 2%;
+}
+
+.padding-top-large {
+  padding-top: 10%;
+}
+
+.padding-right {
+  padding-right: 5%;
+}
+
+.padding-left {
+  padding-left: 5%;
+}
+
+.padding-bottom {
+  padding-bottom: 5%;
+}
+
+.padding-bottom-small {
+  padding-bottom: 2%;
+}
+
+.padding-right-small {
+  padding-right: 2%;
+}
+
+/* Used to offset the automatic col-gutters */
+
+.gutter-offset {
+  padding-top: 8px;
+}
+
+/*
+[MARGIN]
+Margin rules to apply to elements
+*/
+
+.margin {
+  margin: 2em;
+}
+
+.margin-small {
+  margin: 1em;
+}
+
+.margin-large {
+  margin: 2.5em;
+}
+
+.margin-vertical {
+  margin: 2em 0 2em 0;
+}
+
+.margin-vertical-small {
+  margin: 1em 0 1em 0;
+}
+
+.margin-vertical-large {
+  margin: 2.5em 0 2.5em 0;
+}
+
+.margin-horizontal {
+  margin: 0 2em 0 2em;
+}
+
+.margin-horizontal-large {
+  margin: 0 2.5em 0 2.5em;
+}
+
+.margin-horizontal-small {
+  margin: 0 1em 0 1em;
+}
+
+.margin-top {
+  margin-top: 2em;
+}
+
+.margin-top-2rem {
+  margin-top: 2rem;
+}
+
+.margin-top-small {
+  margin-top: 1em;
+}
+
+.margin-top-large {
+  margin-top: 2.5em;
+}
+
+.margin-bottom {
+  margin-bottom: 2em;
+}
+
+.margin-bottom-small {
+  margin-bottom: 1em;
+}
+
+.margin-bottom-large {
+  margin-bottom: 2.5em;
+}
+
+.margin-right {
+  margin-right: 2em;
+}
+
+.margin-right-small {
+  margin-right: 1em;
+}
+
+.margin-left {
+  margin-left: 2em;
+}
+
+.margin-left-small {
+  margin-left: 1em;
+}
+
+.margin-remove {
+  margin: 0 !important;
+}
+
+/*
+[TEXT-ALIGN]
+Align text within elements.
+*/
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/*
+[WIDTH]
+Apply specific width to elements.
+*/
+
+.width-80 {
+  width: 80%;
+}
+
+/* CSS Selector for the fade in javascript animation */
+
+.is-not-visible {
+  visibility: hidden;
+}
+
+.is-visible {
+  opacity: 1;
+}
+
+/*
+=================================================
+=========           FLEX GRID           =========
+=================================================
+
+[CONTAINER]
+The container is the parent element of each row
+and designates the width of child row. This will
+usually be 100% but overwrite with your own CSS.
+*/
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*
+[ROW]
+The rows are nested within the containers. The row
+holds nested columns. This tells the row to wrap
+the content at the start of the row. Negative margin
+is to offset against the gutter applied to the columns
+*/
+
+.grid-row {
+  display: flex;
+  margin: 0 0 0 -.5rem
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+}
+
+.left-content {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-content {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/*
+[COLUMN]
+Columns hold your content and are set to automatically
+fill up an equal width in the row no matter how many
+columns. Each column has padding applied to give it a
+gutter between elements. You can also specify specific
+widths in multiples of 10%. If you specify a width for
+a column you can still place the default columns along-
+side it and they will take up the remaining space.
+*/
+
+.grid-col {
+  display: block;
+  flex: 1;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-flex-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.grid-flex-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.grid-col-10 {
+  flex: none;
+  width: 10%;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-20 {
+  flex: none;
+  width: 20%;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-30 {
+  flex: none;
+  width: 30%;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-40 {
+  flex: none;
+  width: 40%;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-50 {
+  flex: none;
+  width: 50%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-60 {
+  flex: none;
+  width: 60%;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-70 {
+  flex: none;
+  width: 70%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-80 {
+  flex: none;
+  width: 80%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-90 {
+  flex: none;
+  width: 90%;
+  padding: .75rem;
+  margin: 0 0 .5rem .5rem ;
+}
+
+/*
+[FLEX ITEM POSITIONING]
+You can position individual elements within flexbox
+columns. Apply the following classes to the indivi-
+dual element
+*/
+
+.flex-item-right {
+  margin-left: auto;
+  display: flex;
+}
+
+.flex-item-left {
+  margin-right: auto;
+  display: flex;
+}
+
+/*
+[MEDIA QUERIES]
+To make the flex grid look good on mobile we change the
+row flex direction to column to stack the columns
+vertically on devices smaller than 501px.
+*/
+
+@media screen and ( max-width: 860px ) {
+.grid-row {
+  flex-direction: column;
+  }
+}
+
+
+/*
+=================================================
+=========             MOBILE            =========
+=================================================
+*/
+
+/* ///////////////// LAYOUT ///////////////// */
+
+/* Media queries to make the layout work on mobile */
+
+@media screen and ( max-width: 860px ) {
+  .mobile-hide {
+    display: none;
+  }
+
+  .grid-col-10, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90  {
+    flex: 1;
+    width: auto;
+  }
+}
+
+/* MARGINS */
+
+@media screen and ( max-width: 500px ) {
+.margin, .margin-mobile-only {
+  margin: 1em;
+}
+
+.margin-small, .margin-small-mobile-only {
+  margin: 0.75em;
+}
+
+.margin-large, .margin-large-mobile-only {
+  margin: 1.5em;
+}
+
+.margin-vertical, .margin-vertical-mobile-only {
+  margin: 1em 0 1em 0;
+}
+
+.margin-vertical-small, .margin-vertical-small-mobile-only {
+  margin: 0.5em 0 0.5em 0;
+}
+
+.margin-vertical-large, .margin-vertical-large-mobile-only {
+  margin: 1.5em 0 1.5em 0;
+}
+
+.margin-horizontal, .margin-horizontal-mobile-only {
+  margin: 0 1em 0 1em;
+}
+
+.margin-horizontal-large, .margin-horizontal-large-mobile-only {
+  margin: 0 1.5em 0 1.5em;
+}
+
+.margin-horizontal-small, .margin-horizontal-small-mobile-only {
+  margin: 0 0.5em 0 0.5em;
+}
+
+.margin-top, .margin-top-mobile-only {
+  margin-top: 1em;
+}
+
+.margin-top-2rem {
+  margin-top: 2rem;
+}
+
+.margin-top-small, .margin-top-small-mobile-only {
+  margin-top: 0.5em;
+}
+
+.margin-top-large, .margin-top-large-mobile-only {
+  margin-top: 1.5em;
+}
+
+.margin-bottom, .margin-bottom-mobile-only {
+  margin-bottom: 1em;
+}
+
+.margin-bottom-small, .margin-bottom-small-mobile-only {
+  margin-bottom: 0.5em;
+}
+
+.margin-bottom-large, .margin-bottom-large-mobile-only {
+  margin-bottom: 1.5em;
+}
+
+.margin-right, .margin-right-mobile-only {
+  margin-right: 1em;
+}
+
+.margin-right-small, .margin-right-small-mobile-only {
+  margin-right: 0.5em;
+}
+
+.margin-left, .margin-left-mobile-only {
+  margin-left: 1em;
+}
+
+.margin-left-small, .margin-left-small-mobile-only {
+  margin-left: 0.5em;
+}
+
+.margin-remove-mobile-only {
+  margin: 0 !important;
+}
+
+/*
+=================================================
+=========             TABLET            =========
+=================================================
+*/
+
+/* Padding and margin values */
+
+@media ( min-width: 501px ) and ( max-width: 1024px ) {
+.margin, .margin-tablet-only {
+  margin: 1.5em;
+}
+
+.margin-small, .margin-small-tablet-only {
+  margin: 0.75em;
+}
+
+.margin-large, .margin-large-tablet-only {
+  margin: 2em;
+}
+
+.margin-vertical, .margin-vertical-tablet-only {
+  margin: 1.5em 0 1.5em 0;
+}
+
+.margin-vertical-small, .margin-vertical-small-tablet-only {
+  margin: 0.75em 0 0.75em 0;
+}
+
+.margin-vertical-large, .margin-vertical-large-tablet-only {
+  margin: 2em 0 2em 0;
+}
+
+.margin-horizontal, .margin-horizontal-tablet-only {
+  margin: 0 1.5em 0 1.5em;
+}
+
+.margin-horizontal-large, .margin-horiztonal-large-tablet-only {
+  margin: 0 2em 0 2em;
+}
+
+.margin-horizontal-small, .margin-horizontal-small-tablet-only {
+  margin: 0 0.75em 0 0.75em;
+}
+
+.margin-top, .margin-top-tablet-only {
+  margin-top: 2em;
+}
+
+.margin-top-2rem {
+  margin-top: 2rem;
+}
+
+.margin-top-small, .margin-top-small-tablet-only {
+  margin-top: 0.75em;
+}
+
+.margin-top-large, .margin-top-large-tablet-only {
+  margin-top: 2em;
+}
+
+.margin-bottom, .margin-bottom-tablet-only {
+  margin-bottom: 1.5em;
+}
+
+.margin-bottom-small, .margin-bottom-small-tablet-only {
+  margin-bottom: 0.75em;
+}
+
+.margin-right, .margin-right-tablet-only {
+  margin-right: 1.5em;
+}
+
+.margin-right-small, .margin-right-small-tablet-only {
+  margin-right: 0.75em;
+}
+
+.margin-left, .margin-left-tablet-only {
+  margin-left: 1.5em;
+}
+
+.margin-left-small, .margin-left-small-tablet-only {
+  margin-left: 0.75em;
+}
+
+.margin-remove-tablet-only {
+  margin: 0 !important;
+}
+}
+
+/*
+=================================================
+=========      SMALL DESKTOP            =========
+=================================================
+*/
+
+@media (min-width: 500px) and ( max-width: 1024px ) {
+  .btn-secondary {
+    font-size: 1.1em;
+    min-height: 45px;
+    min-width: 135px;
+  }
+}
