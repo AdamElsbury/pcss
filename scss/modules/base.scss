@@ -1,1 +1,24 @@
+// Variables - Colours
 
+$color-orange: #FF4B11;
+$color-dark-blue: #015296;
+$color-light-blue: #195E98;
+$color-lightest-blue: #2699FB;
+$color-grey: #5A5A5A;
+$color-cobalt: #333333;
+$color-white: #FFF;
+$color-background-grey: #F3F3F3;
+
+$gradient-blue: linear-gradient(135deg, #42e695 0%,#3bb2b8 100%);
+
+// Borders
+
+$border-radius-primary: 23px;
+$border-radius-primary-top-right: 0 23px 0 0;
+
+// Typography
+
+$text-primary: "poppins", sans-serif;
+$text-weight-light: 300;
+$text-weight-regular: 400;
+$text-weight-bold: 700;
