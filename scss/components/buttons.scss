@@ -1,10 +1,17 @@
+// Reset
+
+.button-reset {
+  background: none;
+  border: none;
+}
+
 // Buttons
 
 .btn-primary {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $text-primary;
   font-size: 14px;
   letter-spacing: 0;
-  background-color: #514A9D;
+  background-color: $color-orange;
   border-radius: 4px;
   color: #FFFFFF;
   border: 2px solid transparent;
@@ -16,17 +23,24 @@
   -o-transition: all .3s;
   min-height: 50px;
   min-width: 150px;
+
+  &:hover {
+    background-color: transparent;
+    border: 2px solid $color-orange;
+    color: $color-orange;
+    padding: 13px 23px 13px 23px;
+  }
 }
 
 .btn-secondary {
-  font-family: 'Oswald', sans-serif;
+  font-family: $text-primary;
   font-size: 1.2em;
   font-weight: 700;
   letter-spacing: 0;
   background-color: transparent;
   border-radius: 4px;
-  border: 3px solid #05386B;
-  color: #05386B;
+  border: 3px solid $color-orange;
+  color: $color-orange;
   padding: 13px 23px 13px 23px;
   text-transform: uppercase;
   transition: all .3s;
@@ -35,6 +49,13 @@
   -o-transition: all .3s;
   min-height: 50px;
   min-width: 150px;
+
+  &:hover {
+    background-color: $color-orange;
+    border: 3px solid transparent;
+    color: #FFF;
+    padding: 13px 23px 13px 23px;
+  }
 }
 
 // Modifiers
@@ -52,20 +73,6 @@
 }
 
 // Hover effects
-
-.btn-primary:hover {
-  background-color: transparent;
-  border: 2px solid #514A9D;
-  color: #514A9D;
-  padding: 13px 23px 13px 23px;
-}
-
-.btn-secondary:hover {
-  background-color: #05386B;
-  border: 3px solid transparent;
-  color: #5CDB95;
-  padding: 13px 23px 13px 23px;
-}
 
 .no-hover-primary:hover {
   background-color: #514A9D;

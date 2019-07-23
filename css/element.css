@@ -207,8 +207,16 @@ Align text within elements.
 Apply specific width to elements.
 */
 
+.width-40 {
+  width: 40%;
+}
+
 .width-80 {
   width: 80%;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 /* CSS Selector for the fade in javascript animation */
@@ -219,6 +227,14 @@ Apply specific width to elements.
 
 .is-visible {
   opacity: 1;
+}
+
+/* Make something not visible on desktop viewports */
+
+@media screen and ( min-width: 860px ) {
+  .desktop-hide {
+    display: none;
+  }
 }
 
 /*
@@ -407,6 +423,7 @@ vertically on devices smaller than 501px.
   .mobile-hide {
     display: none;
   }
+
 
   .grid-col-10, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90  {
     flex: 1;

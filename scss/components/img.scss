@@ -1,0 +1,36 @@
+// svg
+
+.svg-logo {
+  max-width: 50%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.svg-nav-link-mini {
+  width: 25%;
+  height: auto;
+}
+
+// MOBILE
+
+.svg-logo-mobile {
+  max-width: 100%;
+  max-height: 2em;
+  margin: 0;
+}
+
+.svg-mobile-hamburger {
+  max-width: 100%;
+  max-height: 1em;
+  width: auto;
+  height: auto;
+}
+
+.mobile-menu-close {
+  right: 0;
+  top: 0;
+  position: absolute;
+  margin: 10% 10% 0% 0%;
+}

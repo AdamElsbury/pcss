@@ -2,9 +2,12 @@
 
 .sidebar {
   position: fixed;
-  width: 15%;
+  width: 6%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   height: 100vh;
+  text-align: center;
+  box-shadow: $box-shadow-secondary;
 }
