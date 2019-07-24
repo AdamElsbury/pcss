@@ -12,7 +12,7 @@
 <body>
 
 <div class="container">
-  <nav class="sidebar padding-horizontal-small mobile-hide">
+  <nav class="sidebar mobile-hide">
       <img src="../assets/icons/logo.svg" alt="The logo for PCSS Ltd" class="margin-top svg-logo">
       <ul class="nav-links">
         <li class="nav-item"><a href="index.html">HOME</a></li>
@@ -21,14 +21,14 @@
         <li class="nav-item"><a href="projects.html">PROJECTS</a></li>
         <li class="nav-item"><a href="#market">MARKET</a></li>
       </ul>
-      <a href="" class="margin-bottom width-100">
+      <a href="" class="margin-bottom width-100 nav-link-mini-a">
         <img src="../assets/icons/envelope.svg" alt="An envelope signifying an email button" class="svg-nav-link-mini">
       </a>
   </nav>
 
   <nav class="nav-container desktop-hide">
-    <img src="../assets/icons/logo-no-text.svg" alt="PCSS Ltd logo" class="svg-logo-mobile">
-    <button onclick="showMobileMenu()" class="hamburger-button button-reset"><img src="../assets/icons/menu.svg" alt="" class="svg-mobile-hamburger"></button>
+    <img src="../assets/icons/logo-no-text.svg" alt="PCSS Ltd logo" class="svg-logo-mobile z-index-3">
+    <button onclick="showMobileMenu()" class="hamburger-button button-reset z-index-2"><img src="../assets/icons/menu.svg" alt="" class="svg-mobile-hamburger"></button>
     <div class="mobile-nav-background-container" style="display:none;" id="mobilemenu">
     <section class="mobile-nav-overlay">
       <img src="../assets/icons/close.svg" alt="" class="svg-mobile-hamburger mobile-menu-close" onclick="closeMobileMenu()">
@@ -46,9 +46,52 @@
     </div>
   </nav>
 
+
   <main class="content">
+      <header class="header-container">
+        <div class="header-content">
+          <h1 class="white-text">Project Controls & Support Services Ltd</h1>
+          <hr class="orange-thick">
+          <h2 class="white-text">Project planning</h2>
+          <h3 class="white-text">Professional Project planning and management with over 12 years of experience.</h3>
+          <hr class="white">
+          <h4 class="white-text">Looking for site & consultancy opportunities in South Wales</h4>
+          <div class="button-container">
+            <button class="btn-primary square margin-right margin-top">SEND EMAIL</button>
+            <button class="btn-secondary square">WHAT WE DO</button>
+          </div>
+        </div>
+      </header>
+
+      <div class="grid-row key-stats">
+        <div class="grid-col">
+          <h5>YEARS OF EXPERIENCE</h5>
+          <p>12</p>
+        </div>
+
+        <div class="grid-col">
+          <h5>PROJECTS COMPLETED</h5>
+          <p>8</p>
+        </div>
+
+        <div class="grid-col">
+          <h5>TOTAL VALUE OF PROJECTS</h5>
+          <p>£3.6 billion</p>
+        </div>
+
+        <div class="grid-col">
+          <h5>AVAILABLE FOR HIRE?</h5>
+          <p>YES</p>
+        </div>
+
+      </div>
   </main>
-</div>
+
+
+
+
+
+</div> <!-- Container -->
 
 
 <script type="text/javascript" src="../js/main.js"></script>

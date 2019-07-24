@@ -1,3 +1,8 @@
+// Button containers
+
+.button-container {
+}
+
 // Reset
 
 .button-reset {
@@ -14,7 +19,7 @@
   background-color: $color-orange;
   border-radius: 4px;
   color: #FFFFFF;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   padding: 13px 23px 13px 23px;
   text-transform: uppercase;
   transition: all .3s;
@@ -23,10 +28,11 @@
   -o-transition: all .3s;
   min-height: 50px;
   min-width: 150px;
+  outline: none;
 
   &:hover {
     background-color: transparent;
-    border: 2px solid $color-orange;
+    border: 3px solid $color-orange;
     color: $color-orange;
     padding: 13px 23px 13px 23px;
   }
@@ -34,8 +40,7 @@
 
 .btn-secondary {
   font-family: $text-primary;
-  font-size: 1.2em;
-  font-weight: 700;
+  font-size: 14px;
   letter-spacing: 0;
   background-color: transparent;
   border-radius: 4px;
@@ -49,6 +54,7 @@
   -o-transition: all .3s;
   min-height: 50px;
   min-width: 150px;
+  outline: none;
 
   &:hover {
     background-color: $color-orange;
@@ -93,10 +99,16 @@
 // Mobile
 
 @media screen and ( max-width: 500px ) {
-  .btn-secondary {
-    font-size: 1em;
+  .btn-primary {
+    font-size: 12px;
     min-height: 40px;
-    min-width: 120px;
+    min-width: 130px;
+  }
+
+  .btn-secondary {
+    font-size: 12px;
+    min-height: 40px;
+    min-width: 130px;
   }
 }
 

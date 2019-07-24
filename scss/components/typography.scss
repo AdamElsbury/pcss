@@ -1,3 +1,5 @@
+// Responsive typography
+
 p {
   font-size: calc(16px + (19 - 16) * ((100vw - 300px) / (1600 - 300)));
   color: #333333;
@@ -52,4 +54,24 @@ h6 {
   font-size: calc(16px + (19 - 16) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;
+}
+
+// Font modifiers
+
+.white-text {
+  color: $color-white;
+}
+
+// HR
+
+hr.orange-thick {
+  border: 3px solid $color-orange;
+  display: block;
+  width: 140px;
+}
+
+hr.white {
+  border: 1px solid $color-white;
+  display: block;
+  width: 50%;
 }

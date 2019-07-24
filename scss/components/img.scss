@@ -1,7 +1,7 @@
 // svg
 
 .svg-logo {
-  max-width: 50%;
+  max-width: 30%;
   height: auto;
   padding: 0;
   margin: 0;
@@ -9,8 +9,12 @@
 }
 
 .svg-nav-link-mini {
-  width: 25%;
+  width: 15%;
   height: auto;
+}
+
+.nav-link-mini-a:hover {
+  fill: $color-lightest-blue;
 }
 
 // MOBILE
