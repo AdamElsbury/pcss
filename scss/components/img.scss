@@ -17,6 +17,14 @@
   fill: $color-lightest-blue;
 }
 
+.isometric {
+  max-width: 90%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
 // MOBILE
 
 .svg-logo-mobile {
@@ -37,4 +45,10 @@
   top: 0;
   position: absolute;
   margin: 10% 10% 0% 0%;
+}
+
+@media screen and (max-width: 500px) {
+  .isometric {
+    margin: 0 auto;
+  }
 }

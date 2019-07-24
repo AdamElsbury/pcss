@@ -258,7 +258,11 @@ Apply specific width to elements.
 .z-index-5 {
   z-index: 5;
 }
+/* Make elements inline block */
 
+.inline-block {
+  display: inline-block !important;
+}
 /*
 =================================================
 =========           FLEX GRID           =========
@@ -288,20 +292,6 @@ is to offset against the gutter applied to the columns
   margin: 0 0 0 -.5rem
 }
 
-.center-content {
-  justify-content: center;
-  align-items: center;
-}
-
-.left-content {
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.right-content {
-  justify-content: flex-end;
-  align-items: center;
-}
 
 /*
 [COLUMN]
@@ -336,6 +326,12 @@ side it and they will take up the remaining space.
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+
+.grid-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .flex-direction-column {
@@ -540,6 +536,9 @@ vertically on devices smaller than 501px.
   margin: 0 !important;
 }
 
+.margin-bottom-remove-mobile-only {
+  margin-bottom: 0 !important;
+}
 /*
 =================================================
 =========             TABLET            =========

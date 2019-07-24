@@ -1,20 +1,21 @@
 // Responsive typography
 
 p {
-  font-size: calc(16px + (19 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
   color: #333333;
   font-family: $text-primary;
+  color: $color-grey;
 }
 
 li {
-  font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(14px + (17 - 14) * ((100vw - 300px) / (1600 - 300)));
   color: #333333;
   font-family: $text-primary;
 }
 
 h1 {
   color: #05386B;
-  font-size: calc(30px + (50 - 30) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(25px + (40 - 25) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 700;
   margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;
@@ -22,21 +23,22 @@ h1 {
 
 h2 {
   color: #05386B;
-  font-size: calc(25px + (37 - 25) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(22px + (33 - 22) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 600;
   margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;
+  color: $color-cobalt;
 }
 
 h3 {
-  font-size: calc(22px + (30 - 22) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(20px + (28 - 20) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
   color: #05386B;
   font-family: $text-primary;
 }
 
 h4 {
-  font-size: calc(20px + (25 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
   color: #171717;
   font-family: $text-primary;
@@ -61,7 +63,6 @@ h6 {
 .white-text {
   color: $color-white;
 }
-
 // HR
 
 hr.orange-thick {

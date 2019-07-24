@@ -4,4 +4,24 @@
   background-color: $color-orange;
   justify-content: space-between;
   padding: 3% 6% 3% 6%;
+
+  h6 {
+    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+    letter-spacing: 1px;
+    color: $color-light-blue;
+  }
+
+  p {
+    font-size: calc(22px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: $text-weight-regular;
+    color: $color-lightest-blue;
+  }
+}
+
+// Mobile responsive
+
+@media screen and (max-width: 500px) {
+  .key-stats {
+    padding: 5%;
+  }
 }

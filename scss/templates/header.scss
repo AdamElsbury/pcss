@@ -46,3 +46,11 @@
     width: 90%;
   }
 }
+
+// Small desktop responsive
+
+@media (min-width: 900px ) and (max-width: 1380px) {
+  .header-content {
+    width: 60%;
+  }
+}
