@@ -334,6 +334,14 @@ side it and they will take up the remaining space.
   justify-content: space-between;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .flex-direction-column {
   flex-direction: column;
 }
@@ -342,6 +350,12 @@ side it and they will take up the remaining space.
   flex: none;
   width: 10%;
   margin: 0 0 .5rem .5rem ;
+}
+
+.grid-col-17 {
+  flex: none;
+  width: 17%;
+  margin: 0 0rem .5rem .5rem ;
 }
 
 .grid-col-20 {
@@ -426,6 +440,16 @@ vertically on devices smaller than 501px.
   }
 }
 
+/*
+=================================================
+=========           BACKGROUNDS         =========
+=================================================
+*/
+
+.grey-background {
+  background-color: #F3F3F3;
+}
+
 
 /*
 =================================================
@@ -443,9 +467,10 @@ vertically on devices smaller than 501px.
   }
 
 
-  .grid-col-10, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90  {
+  .grid-col-10, .grid-col-17, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90  {
     flex: 1;
     width: auto;
+    margin: 0 0 1rem .5rem;
   }
 }
 
@@ -634,11 +659,3 @@ vertically on devices smaller than 501px.
 =========      SMALL DESKTOP            =========
 =================================================
 */
-
-@media (min-width: 500px) and ( max-width: 1024px ) {
-  .btn-secondary {
-    font-size: 1.1em;
-    min-height: 45px;
-    min-width: 135px;
-  }
-}

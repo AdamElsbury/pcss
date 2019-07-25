@@ -3,5 +3,30 @@
 .white-card {
   border-radius: $border-radius-primary;
   background-color: $color-white;
-  box-shadow: $box-shadow-primary; 
+  box-shadow: $box-shadow-primary;
+}
+
+.white-card-secondary {
+  border-radius: $border-radius-primary-top-right;
+  background-color: $color-white;
+  box-shadow: $box-shadow-primary;
+  padding: 3% 2% 3% 2%;
+
+  h4 {
+    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+    color: $color-dark-blue;
+  }
+
+  p {
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: $text-weight-light;
+  }
+}
+
+// Mobile
+
+@media screen and (max-width: 500px) {
+  .white-card-secondary {
+    padding: 8%;
+  }
 }

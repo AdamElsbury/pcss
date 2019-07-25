@@ -268,7 +268,7 @@ hr.white {
   text-align: center;
   margin-bottom: 2em;
   font-family: "poppins", sans-serif;
-  font-weight: 300; }
+  font-weight: 400; }
 
 .sidebar ul > li > a {
   text-decoration: none;
@@ -366,6 +366,19 @@ hr.white {
   margin: 0;
   display: block; }
 
+.svg-title {
+  max-width: 5%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  display: block; }
+
+.svg-card {
+  max-width: 25%;
+  height: auto;
+  padding: 0;
+  margin: 0; }
+
 .svg-logo-mobile {
   max-width: 100%;
   max-height: 2em;
@@ -385,10 +398,48 @@ hr.white {
 
 @media screen and (max-width: 500px) {
   .isometric {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .svg-title {
+    max-width: 12%; }
+
+  .svg-card {
+    max-width: 15%;
+    height: auto;
+    padding: 0;
+    margin: 0; } }
+@media (min-width: 501px) and (max-width: 768px) {
+  .isometric {
+    margin: 0 auto;
+    max-width: 70%; }
+
+  .svg-title {
+    max-width: 12%; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .isometric {
+    margin: 0 auto; }
+
+  .svg-title {
+    max-width: 9%; } }
 .white-card {
   border-radius: 12px;
   background-color: #FFF;
   box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.2); }
+
+.white-card-secondary {
+  border-radius: 19px 0 19px 19px;
+  background-color: #FFF;
+  box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+  padding: 3% 2% 3% 2%; }
+  .white-card-secondary h4 {
+    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+    color: #015296; }
+  .white-card-secondary p {
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 300; }
+
+@media screen and (max-width: 500px) {
+  .white-card-secondary {
+    padding: 8%; } }
 
 /*# sourceMappingURL=main.css.map */
