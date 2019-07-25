@@ -74,8 +74,16 @@ Padding rules to apply to elements
   padding-right: 5%;
 }
 
+.padding-right-large {
+  padding-right: 10%;
+}
+
 .padding-left {
   padding-left: 5%;
+}
+
+.padding-left-large {
+  padding-left: 10%;
 }
 
 .padding-bottom {
@@ -233,7 +241,7 @@ Apply specific width to elements.
 
 @media screen and ( min-width: 860px ) {
   .desktop-hide {
-    display: none;
+    display: none !important;
   }
 }
 
@@ -332,6 +340,12 @@ side it and they will take up the remaining space.
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.grid-flex-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .justify-between {
@@ -466,12 +480,20 @@ vertically on devices smaller than 501px.
     display: none;
   }
 
+  .grid-col {
+    margin: 0 0 1rem .5rem;
+  }
 
   .grid-col-10, .grid-col-17, .grid-col-20, .grid-col-30, .grid-col-40, .grid-col-50, .grid-col-60, .grid-col-70, .grid-col-80, .grid-col-90  {
     flex: 1;
     width: auto;
     margin: 0 0 1rem .5rem;
   }
+
+  .padding-top-reset-mobile {
+    padding-top: 0 !important;
+  }
+
 }
 
 /* MARGINS */
