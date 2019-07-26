@@ -156,14 +156,34 @@ main {
     font-size: 1.1em;
     min-height: 45px;
     min-width: 135px; } }
-input[type=text] {
-  min-height: 48px;
-  min-width: 300px;
-  padding: 0 23px 0 23px;
-  font-size: 14px;
-  letter-spacing: 0;
-  border-radius: 4px;
-  border: 2px solid #5B5B5B; }
+.contact label {
+  display: block;
+  font-family: "poppins", sans-serif;
+  color: #5A5A5A; }
+.contact input[type=text] {
+  border-bottom: 2px solid #FF4B11;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 0.3em;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
+  font-family: "poppins", sans-serif;
+  color: #333333;
+  font-weight: 300; }
+  .contact input[type=text]:focus {
+    outline: none; }
+.contact textarea {
+  border-bottom: 2px solid #FF4B11;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  display: block;
+  padding: 1em; }
 
 .modal-container {
   top: 0;
