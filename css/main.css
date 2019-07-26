@@ -477,6 +477,12 @@ hr.white {
   .white-card-projects .grid-row {
     margin: 0; }
 
+.grey-card {
+  border-radius: 12px;
+  background-color: #333333; }
+  .grey-card p {
+    color: #FFF; }
+
 @media screen and (max-width: 500px) {
   .white-card-secondary {
     padding: 8%; }
@@ -486,6 +492,11 @@ hr.white {
     .white-card-projects .grid-row {
       flex-direction: inherit; }
     .white-card-projects a {
-      font-size: 0.9em; } }
+      font-size: 0.9em; }
+
+  .grey-card {
+    padding: 0 2% 0 2%; }
+    .grey-card p {
+      font-size: calc(11px + (12 - 11) * ((100vw - 300px) / (1600 - 300))); } }
 
 /*# sourceMappingURL=main.css.map */

@@ -77,6 +77,14 @@
   }
 }
 
+.grey-card {
+  border-radius: $border-radius-primary;
+  background-color: $color-cobalt;
+
+  p {
+    color: $color-white;
+  }
+}
 
 // Mobile
 
@@ -94,6 +102,14 @@
 
     a {
       font-size: 0.9em;
+    }
+  }
+
+  .grey-card {
+    padding: 0 2% 0 2%;
+    
+    p {
+      font-size: calc(11px + (12 - 11) * ((100vw - 300px) / (1600 - 300)));
     }
   }
 }

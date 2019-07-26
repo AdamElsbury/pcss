@@ -452,6 +452,10 @@ vertically on devices smaller than 501px.
 .grid-row {
   flex-direction: column;
   }
+
+.grid-row-reset-mobile {
+  flex-direction: row !important;
+}
 }
 
 /*
@@ -585,6 +589,21 @@ vertically on devices smaller than 501px.
 
 .margin-bottom-remove-mobile-only {
   margin-bottom: 0 !important;
+}
+
+/* Padding resets */
+
+.padding-large-reset-mobile {
+  padding: 5% !important;
+}
+
+.padding-left-large-reset-mobile {
+  padding-left: 5% !important;
+}
+
+.padding-right-large-reset-mobile {
+  padding-right: 5% !important;
+}
 }
 /*
 =================================================
