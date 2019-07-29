@@ -20,7 +20,7 @@ Padding rules to apply to elements
 */
 
 .padding {
-  padding: 5% !important;
+  padding: 5%;
 }
 
 .padding-large {
@@ -96,6 +96,10 @@ Padding rules to apply to elements
 
 .padding-right-small {
   padding-right: 2%;
+}
+
+.padding-remove {
+  padding: 0 !important;
 }
 
 /* Used to offset the automatic col-gutters */
@@ -191,6 +195,10 @@ Margin rules to apply to elements
 
 .margin-remove {
   margin: 0 !important;
+}
+
+.margin-bottom-remove {
+  margin-bottom: 0 !important;
 }
 
 /*
@@ -591,6 +599,15 @@ vertically on devices smaller than 501px.
   margin-bottom: 0 !important;
 }
 
+/* Padding */
+
+.padding-mobile-only {
+  padding: 5%;
+}
+
+.padding-large-mobile-only {
+  padding: 8%;
+}
 /* Padding resets */
 
 .padding-large-reset-mobile {

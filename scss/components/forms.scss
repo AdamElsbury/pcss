@@ -8,6 +8,7 @@
     display: block;
     font-family: $text-primary;
     color: $color-grey;
+    font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
   }
 
   input[type=text] {
@@ -37,6 +38,44 @@
     box-sizing: border-box;
     resize: vertical;
     display: block;
-    padding: 1em
+    padding: 1em 0 0 0;
+    font-family: $text-primary;
+    color: $color-cobalt;
+    font-weight: $text-weight-light;
+    font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
+
+    &:focus {
+      outline: none;
+    }
   }
+
+  .field {
+    padding: 2% 2% 2% 0;
+  }
+}
+
+.contact-side-container {
+  background-color: $color-orange;
+  border-radius: 0 12px 12px 0;
+
+  p {
+    color: $color-white;
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: $text-weight-light;
+  }
+}
+
+.contact-side-content {
+
+  div {
+  display: flex;
+  align-items: center;
+  }
+}
+
+// Mobile Responsive
+@media screen and ( max-width: 500px ) {
+.contact-side-container {
+  border-radius: 0 0 12px 12px;
+}
 }
