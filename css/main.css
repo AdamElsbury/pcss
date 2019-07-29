@@ -59,17 +59,39 @@ main {
   justify-content: space-between;
   padding: 3% 6% 3% 6%; }
   .key-stats h6 {
-    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(10px + (13 - 10) * ((100vw - 300px) / (1600 - 300)));
     letter-spacing: 1px;
     color: #015296; }
   .key-stats p {
-    font-size: calc(22px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(20px + (22 - 20) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 400;
     color: #2699FB; }
 
 @media screen and (max-width: 500px) {
   .key-stats {
     padding: 5%; } }
+footer {
+  background-color: #333333; }
+  footer a {
+    color: #FF4B11;
+    text-decoration: none;
+    transition: all .3s; }
+    footer a:hover {
+      color: #FFF; }
+  footer p {
+    color: #FFF;
+    font-weight: 300;
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300))); }
+  footer img {
+    max-width: 4%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: block; }
+
+@media screen and (max-width: 500px) {
+  footer img {
+    max-width: 10%; } }
 .button-reset {
   background: none;
   border: none; }
@@ -273,13 +295,13 @@ h3 {
 h4 {
   font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: #171717;
+  color: #05386B;
   font-family: "poppins", sans-serif; }
 
 h5 {
   font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: #171717;
+  color: #05386B;
   font-family: "poppins", sans-serif; }
 
 h6 {

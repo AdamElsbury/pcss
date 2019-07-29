@@ -464,6 +464,11 @@ vertically on devices smaller than 501px.
 .grid-row-reset-mobile {
   flex-direction: row !important;
 }
+
+.grid-col-20-reset-mobile {
+  flex: none !important;
+  width: 10% !important;
+}
 }
 
 /*

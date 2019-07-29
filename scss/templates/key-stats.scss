@@ -6,13 +6,13 @@
   padding: 3% 6% 3% 6%;
 
   h6 {
-    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(10px + (13 - 10) * ((100vw - 300px) / (1600 - 300)));
     letter-spacing: 1px;
     color: $color-light-blue;
   }
 
   p {
-    font-size: calc(22px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(20px + (22 - 20) * ((100vw - 300px) / (1600 - 300)));
     font-weight: $text-weight-regular;
     color: $color-lightest-blue;
   }
