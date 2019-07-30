@@ -14,7 +14,7 @@ li {
 }
 
 h1 {
-  color: #05386B;
+  color: #333333;
   font-size: calc(25px + (40 - 25) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 700;
   margin: 1.5% 0 1.5% 0;
@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  color: #05386B;
+  color: #333333;
   font-size: calc(22px + (33 - 22) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 600;
   margin: 1.5% 0 1.5% 0;
@@ -33,26 +33,26 @@ h2 {
 h3 {
   font-size: calc(20px + (28 - 20) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: #05386B;
+  color: #333333;
   font-family: $text-primary;
 }
 
 h4 {
   font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: #05386B;
+  color: #333333;
   font-family: $text-primary;
 }
 
 h5 {
   font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: #05386B;
+  color: #333333;
   font-family: $text-primary;
 }
 
 h6 {
-  color: #05386B;
+  color: #333333;
   font-size: calc(16px + (19 - 16) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
   font-family: $text-primary;

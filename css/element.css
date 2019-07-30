@@ -364,6 +364,11 @@ side it and they will take up the remaining space.
   justify-content: space-evenly;
 }
 
+.justify-center {
+  justify-content: center;
+  display: flex;
+}
+
 .flex-direction-column {
   flex-direction: column;
 }

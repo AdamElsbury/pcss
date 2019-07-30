@@ -1,0 +1,23 @@
+.image-underlay {
+  background: url("../assets/img/laptop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: $border-radius-primary;
+  position: relative;
+  min-height: 350px;
+
+  article {
+    width: 95%;
+    border-radius: $border-radius-primary;
+    background-color: $color-dark-blue;
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+    min-height: 300px;
+
+    p {
+      color: $color-white;
+    }
+  }
+}

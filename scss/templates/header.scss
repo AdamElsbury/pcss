@@ -28,6 +28,30 @@
   }
 }
 
+// What we do header
+
+.hero-container {
+  min-height: 60vh;
+}
+
+.hero-message {
+  background: linear-gradient(135deg, #195E98 0%,#134D7E 100%);
+
+  h2, h4 {
+    color: $color-white
+  }
+
+  span {
+    color: $color-orange;
+  }
+}
+
+.hero-image {
+  background: url("../assets/img/laptop.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 // Mobile Responsive
 
 @media screen and ( max-width: 500px ) {

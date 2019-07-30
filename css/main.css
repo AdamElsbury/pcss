@@ -32,6 +32,21 @@
     font-weight: 300;
     margin-top: 1em; }
 
+.hero-container {
+  min-height: 60vh; }
+
+.hero-message {
+  background: linear-gradient(135deg, #195E98 0%, #134D7E 100%); }
+  .hero-message h2, .hero-message h4 {
+    color: #FFF; }
+  .hero-message span {
+    color: #FF4B11; }
+
+.hero-image {
+  background: url("../assets/img/laptop.jpg");
+  background-position: center;
+  background-size: cover; }
+
 @media screen and (max-width: 500px) {
   .header-container {
     height: 90vh; }
@@ -272,14 +287,14 @@ li {
   font-family: "poppins", sans-serif; }
 
 h1 {
-  color: #05386B;
+  color: #333333;
   font-size: calc(25px + (40 - 25) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 700;
   margin: 1.5% 0 1.5% 0;
   font-family: "poppins", sans-serif; }
 
 h2 {
-  color: #05386B;
+  color: #333333;
   font-size: calc(22px + (33 - 22) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 600;
   margin: 1.5% 0 1.5% 0;
@@ -289,23 +304,23 @@ h2 {
 h3 {
   font-size: calc(20px + (28 - 20) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: #05386B;
+  color: #333333;
   font-family: "poppins", sans-serif; }
 
 h4 {
   font-size: calc(18px + (25 - 18) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: #05386B;
+  color: #333333;
   font-family: "poppins", sans-serif; }
 
 h5 {
   font-size: calc(18px + (22 - 18) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
-  color: #05386B;
+  color: #333333;
   font-family: "poppins", sans-serif; }
 
 h6 {
-  color: #05386B;
+  color: #333333;
   font-size: calc(16px + (19 - 16) * ((100vw - 300px) / (1600 - 300)));
   margin: 1.5% 0 1.5% 0;
   font-family: "poppins", sans-serif; }
@@ -347,6 +362,20 @@ hr.white {
   letter-spacing: 0.1em; }
   .sidebar ul > li > a:hover {
     color: #FF4B11; }
+
+.internal-nav-bar {
+  background-color: #FF4B11;
+  padding: 3% 0 3% 0; }
+  .internal-nav-bar a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    transition: .3s all;
+    letter-spacing: 1.5px;
+    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300))); }
+    .internal-nav-bar a:hover {
+      color: #015296; }
 
 @media screen and (max-width: 860px) {
   .hamburger-button {
@@ -414,7 +443,10 @@ hr.white {
     right: 0;
     top: 0;
     position: absolute;
-    margin: 10% 10% 0% 0%; } }
+    margin: 10% 10% 0% 0%; }
+
+  .internal-nav-bar a {
+    font-weight: 400; } }
 .svg-logo {
   max-width: 30%;
   height: auto;
@@ -457,6 +489,12 @@ hr.white {
 
 .svg-contact-iso {
   max-width: 90%;
+  height: auto;
+  padding: 0;
+  margin: 0; }
+
+.hero-image-50 {
+  max-width: 100%;
   height: auto;
   padding: 0;
   margin: 0; }
@@ -586,5 +624,23 @@ hr.white {
     padding: 0 2% 0 2%; }
     .grey-card p {
       font-size: calc(11px + (12 - 11) * ((100vw - 300px) / (1600 - 300))); } }
+.image-underlay {
+  background: url("../assets/img/laptop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  position: relative;
+  min-height: 350px; }
+  .image-underlay article {
+    width: 95%;
+    border-radius: 12px;
+    background-color: #015296;
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+    min-height: 300px; }
+    .image-underlay article p {
+      color: #FFF; }
 
 /*# sourceMappingURL=main.css.map */
