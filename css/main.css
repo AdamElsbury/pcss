@@ -359,7 +359,8 @@ hr.white {
   text-decoration: none;
   color: #333333;
   transition: all .3s;
-  letter-spacing: 0.1em; }
+  letter-spacing: 0.1em;
+  font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300))); }
   .sidebar ul > li > a:hover {
     color: #FF4B11; }
 
