@@ -609,6 +609,22 @@ hr.white {
   .grey-card p {
     color: #FFF; }
 
+.orange-card {
+  background-color: #FF4B11;
+  border-radius: 12px;
+  box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 1rem; }
+  .orange-card p {
+    color: #FFF;
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 300; }
+  .orange-card h6 {
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 700;
+    color: #FFF;
+    letter-spacing: 1px; }
+
 @media screen and (max-width: 500px) {
   .white-card-secondary {
     padding: 8%; }

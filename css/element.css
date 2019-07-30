@@ -67,7 +67,7 @@ Padding rules to apply to elements
 }
 
 .padding-top-large {
-  padding-top: 10%;
+  padding-top: 8%;
 }
 
 .padding-right {
@@ -75,7 +75,7 @@ Padding rules to apply to elements
 }
 
 .padding-right-large {
-  padding-right: 10%;
+  padding-right: 8%;
 }
 
 .padding-left {
@@ -83,7 +83,7 @@ Padding rules to apply to elements
 }
 
 .padding-left-large {
-  padding-left: 10%;
+  padding-left: 8%;
 }
 
 .padding-bottom {
@@ -455,6 +455,20 @@ dual element
 }
 
 /*
+[GUTTER RESETS]
+Here we can make the standard gutter larger or smaller Using
+resets.
+*/
+
+.grid-row-reset-3 {
+  margin: 0 0 0 -3rem !important;
+}
+
+.grid-col-reset-3 {
+  margin: 0 0 0 3rem;
+}
+
+/*
 [MEDIA QUERIES]
 To make the flex grid look good on mobile we change the
 row flex direction to column to stack the columns
@@ -518,6 +532,10 @@ vertically on devices smaller than 501px.
 
   .padding-top-reset-mobile {
     padding-top: 0 !important;
+  }
+
+  .grid-col-reset-3 {
+    margin: 0 0 1rem 0;
   }
 
 }
@@ -622,6 +640,10 @@ vertically on devices smaller than 501px.
 .padding-large-mobile-only {
   padding: 8%;
 }
+
+.padding-large-bottom-mobile-only {
+  padding-bottom: 8%;
+}
 /* Padding resets */
 
 .padding-large-reset-mobile {
@@ -634,6 +656,10 @@ vertically on devices smaller than 501px.
 
 .padding-right-large-reset-mobile {
   padding-right: 5% !important;
+}
+
+.padding-remove-mobile {
+  padding: 0% !important;
 }
 }
 /*

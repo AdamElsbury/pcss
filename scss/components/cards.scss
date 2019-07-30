@@ -86,6 +86,27 @@
   }
 }
 
+.orange-card {
+  background-color: $color-orange;
+  border-radius: $border-radius-primary;
+  box-shadow: $box-shadow-primary;
+  text-align: center;
+  margin-bottom: 1rem;
+
+  p {
+    color: $color-white;
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: $text-weight-light;
+  }
+
+  h6 {
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: $text-weight-bold;
+    color: $color-white;
+    letter-spacing: 1px;
+  }
+}
+
 // Mobile
 
 @media screen and (max-width: 500px) {
@@ -107,7 +128,7 @@
 
   .grey-card {
     padding: 0 2% 0 2%;
-    
+
     p {
       font-size: calc(11px + (12 - 11) * ((100vw - 300px) / (1600 - 300)));
     }
