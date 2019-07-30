@@ -643,4 +643,14 @@ hr.white {
     .image-underlay article p {
       color: #FFF; }
 
+@media screen and (max-width: 500px) {
+  .image-underlay {
+    width: 90% !important;
+    min-height: 250px; }
+    .image-underlay article {
+      bottom: -30px;
+      right: -30px;
+      left: auto;
+      min-height: 200px; } }
+
 /*# sourceMappingURL=main.css.map */
