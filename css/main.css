@@ -499,6 +499,13 @@ hr.white {
   padding: 0;
   margin: 0; }
 
+.staff-profile {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border-radius: 12px; }
+
 .svg-logo-mobile {
   max-width: 100%;
   max-height: 2em;
@@ -668,5 +675,29 @@ hr.white {
       right: -30px;
       left: auto;
       min-height: 200px; } }
+.steps img {
+  max-width: 90%;
+  height: auto;
+  padding: 0;
+  margin: 0; }
+.steps h6 {
+  color: #FF4B11;
+  font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300))); }
+.steps p {
+  font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 300; }
+
+@media screen and (max-width: 500px) {
+  .steps img {
+    max-width: 42%; } }
+.staff h5 {
+  color: #FF4B11; }
+.staff span {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  color: #333333; }
+.staff p {
+  font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 300; }
 
 /*# sourceMappingURL=main.css.map */

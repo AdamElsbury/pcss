@@ -1,0 +1,19 @@
+// Staff section
+
+.staff {
+
+  h5 {
+    color: $color-orange;
+  }
+
+  span {
+    font-family: $text-primary;
+    font-weight: $text-weight-regular;
+    color: $color-cobalt;
+  }
+
+  p {
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: $text-weight-light;
+  }
+}
