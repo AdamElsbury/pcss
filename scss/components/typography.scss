@@ -71,6 +71,12 @@ hr.orange-thick {
   width: 140px;
 }
 
+hr.orange-thin {
+  border: 2px solid $color-orange;
+  display: block;
+  width: 140px;
+}
+
 hr.white {
   border: 1px solid $color-white;
   display: block;

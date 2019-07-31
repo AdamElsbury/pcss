@@ -94,6 +94,10 @@ Padding rules to apply to elements
   padding-bottom: 2%;
 }
 
+.padding-bottom-large {
+  padding-bottom: 8%;
+}
+
 .padding-right-small {
   padding-right: 2%;
 }

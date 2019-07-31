@@ -71,7 +71,6 @@
     width: 60%; } }
 main {
   z-index: 9998;
-  height: 4000px;
   width: 90%;
   margin-left: 10%; }
 
@@ -340,6 +339,11 @@ h6 {
 
 hr.orange-thick {
   border: 3px solid #FF4B11;
+  display: block;
+  width: 140px; }
+
+hr.orange-thin {
+  border: 2px solid #FF4B11;
   display: block;
   width: 140px; }
 
@@ -692,6 +696,44 @@ hr.white {
     min-height: 300px; }
     .image-underlay article p {
       color: #FFF; }
+
+.image-underlay-projects {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  border-radius: 12px;
+  position: relative;
+  min-height: 350px; }
+  .image-underlay-projects article {
+    width: 70%;
+    border-radius: 12px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: -70px;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    padding: 2% 0 4% 0; }
+    .image-underlay-projects article h5 {
+      color: #333333; }
+    .image-underlay-projects article p {
+      color: #5A5A5A;
+      font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+      font-weight: 300; }
+    .image-underlay-projects article hr {
+      margin-bottom: 1em; }
+    .image-underlay-projects article a {
+      color: #FF4B11;
+      font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+      font-weight: 700;
+      font-family: "poppins", sans-serif;
+      text-decoration: none;
+      transition: all .3s; }
+      .image-underlay-projects article a:hover {
+        color: #015296; }
+
+.projects-card-1 {
+  background: url("../assets/img/transport-for-wales.jpg"); }
 
 @media screen and (max-width: 500px) {
   .image-underlay {

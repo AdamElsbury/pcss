@@ -22,6 +22,60 @@
   }
 }
 
+.image-underlay-projects {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  border-radius: $border-radius-primary;
+  position: relative;
+  min-height: 350px;
+
+  article {
+    width: 70%;
+    border-radius: $border-radius-primary;
+    background-color: $color-white;
+    position: absolute;
+    bottom: -70px;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    padding: 2% 0 4% 0;
+
+    h5 {
+      color: $color-cobalt;
+    }
+
+    p {
+      color: $color-grey;
+      font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+      font-weight: $text-weight-light;
+    }
+
+    hr {
+      margin-bottom: 1em;
+    }
+
+    a {
+      color: $color-orange;
+      font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+      font-weight: $text-weight-bold;
+      font-family: $text-primary;
+      text-decoration: none;
+      transition: all .3s;
+
+      &:hover {
+        color: $color-dark-blue;
+      }
+    }
+  }
+}
+
+// Projects underlay background links
+
+.projects-card-1 {
+  background: url("../assets/img/transport-for-wales.jpg");
+}
+
 // Mobile Responsive
 
 @media screen and (max-width: 500px) {
