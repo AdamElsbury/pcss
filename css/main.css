@@ -703,7 +703,10 @@ hr.white {
   background-repeat: no-repeat !important;
   border-radius: 12px;
   position: relative;
-  min-height: 350px; }
+  min-height: 350px;
+  display: block;
+  flex: 1;
+  margin: 0 0 .5rem .5rem; }
   .image-underlay-projects article {
     width: 70%;
     border-radius: 12px;
@@ -743,7 +746,14 @@ hr.white {
       bottom: -30px;
       right: -30px;
       left: auto;
-      min-height: 200px; } }
+      min-height: 200px; }
+
+  .image-underlay-projects {
+    min-height: 200px;
+    margin-bottom: 50px;
+    margin: 0 0 5rem .5rem; }
+    .image-underlay-projects article hr {
+      width: 30%; } }
 .steps img {
   max-width: 90%;
   height: auto;

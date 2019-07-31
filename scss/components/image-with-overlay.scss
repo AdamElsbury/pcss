@@ -29,6 +29,9 @@
   border-radius: $border-radius-primary;
   position: relative;
   min-height: 350px;
+  display: block;
+  flex: 1;
+  margin: 0 0 .5rem .5rem;
 
   article {
     width: 70%;
@@ -88,6 +91,19 @@
       right: -30px;
       left: auto;
       min-height: 200px;
+    }
+  }
+
+  .image-underlay-projects {
+    min-height: 200px;
+    margin-bottom: 50px;
+    margin: 0 0 5rem .5rem;
+
+    article {
+
+      hr {
+        width: 30%;
+      }
     }
   }
 }
