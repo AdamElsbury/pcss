@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.typekit.net/hrl4xkm.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/element.css">
+</head>
+<body>
+
+  <div class="container">
+    <nav class="sidebar mobile-hide">
+        <img src="../assets/icons/logo.svg" alt="The logo for PCSS Ltd" class="margin-top svg-logo">
+        <ul class="nav-links">
+          <li class="nav-item"><a href="index.html">HOME</a></li>
+          <li class="nav-item"><a href="aboutus.html">ABOUT US</a></li>
+          <li class="nav-item"><a href="services.html">SERVICES</a></li>
+          <li class="nav-item"><a href="projects.html">PROJECTS</a></li>
+          <li class="nav-item"><a href="#market">MARKET</a></li>
+        </ul>
+        <a href="" class="margin-bottom width-100 nav-link-mini-a">
+          <img src="../assets/icons/envelope.svg" alt="An envelope signifying an email button" class="svg-nav-link-mini">
+        </a>
+    </nav>
+
+    <nav class="nav-container desktop-hide">
+      <img src="../assets/icons/logo-no-text.svg" alt="PCSS Ltd logo" class="svg-logo-mobile z-index-3">
+      <button onclick="showMobileMenu()" class="hamburger-button button-reset z-index-2"><img src="../assets/icons/menu.svg" alt="" class="svg-mobile-hamburger"></button>
+      <div class="mobile-nav-background-container" style="display:none;" id="mobilemenu">
+      <section class="mobile-nav-overlay">
+        <img src="../assets/icons/close.svg" alt="" class="svg-mobile-hamburger mobile-menu-close" onclick="closeMobileMenu()">
+        <article class="mobile-nav-container">
+          <ul>
+            <li><a href="#whatido" onclick="closeMobileMenuLinkClick()"><h3>HOME</h3></a></li>
+            <li><a href="#skills" onclick="closeMobileMenuLinkClick()"><h3>ABOUT US</h3></a></li>
+            <li><a href="#projects" onclick="closeMobileMenuLinkClick()"><h3>SERVICES</h3></a></li>
+            <li><a href="#cv" onclick="closeMobileMenuLinkClick()"><h3>PROJECTS</h3></a></li>
+            <li><a href="#aboutme" onclick="closeMobileMenuLinkClick()"><h3>MARKETS</h3></a></li>
+            <li><a href="mailto:adam.john.elsbury@gmail.com"><button class="btn-secondary square btn-white margin-top-large">GET IN TOUCH</button></a></li>
+          </ul>
+        </article>
+      </section>
+      </div>
+    </nav>
+
+    <main class="content">
+      <header class="grid-row services-header padding">
+        <article class="grid-col grid-flex-end flex-direction-column">
+          <h1>Services.</h1>
+          <p>Its not easy to encapsulate every nuanced part of what we do in a single section as we believe in offering a bespoke, fluid service to every client. Every project is different. We cater to all sizes and complexities and our expert team will apply our skills to fit your exact project.</p>
+        </article>
+        <div class="grid-col"></div>
+        <div class="grid-col-20 grid-flex-end flex-direction-column">
+          <div class="text-right">
+          <button class="btn-primary square">CONTACT US</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="grid-row padding-left padding-right padding-top grey-background">
+        <div class="grid-col">
+          <img src="../assets/icons/desk.svg" alt="A worker behind a desk and computer" class="inline-block margin-right svg-title">
+          <div class="inline-block grid-col">
+            <h2 class="margin-remove">Services.</h2>
+            <p class="margin-remove">What can we do for your business?</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid-row grey-background padding-top justify-evenly services">
+        <div class="grid-col"></div>
+
+        <article class="grid-col-17 cobalt-card text-center">
+          <h4 class="margin-remove">PROJECT PLANNING</h4>
+          <img src="../assets/icons/sketch.svg" alt="A pencil drawing on a piece of paper with a ruler close by." class="text-center margin-vertical-small svg-card">
+          <p class="margin-remove">Our skilled team can support your business in building and maintaining schedules to help your project managers deliver their projects to the requisite time, cost & quality that meets the business goals.</p>
+        </article>
+
+        <article class="grid-col-17 cobalt-card text-center margin-top">
+          <h4 class="margin-remove">MASTER SCHEDULE CONSTRUCTION</h4>
+          <img src="../assets/icons/calendar.svg" alt="A calendar" class="text-center margin-vertical-small svg-card">
+          <p class="margin-remove">We create and maintain Integrated Master Schedules to visualize the internal & external interdependencies between tasks, milestones and projects.</p>
+        </article>
+
+        <article class="grid-col-17 white-card-secondary text-center margin-top-large">
+          <h4 class="margin-remove">CRITICAL PATH ANALYSIS</h4>
+          <img src="../assets/icons/analysis.svg" alt="A magnifying glass looking at a whiteboard with data on it" class="text-center margin-vertical-small svg-card">
+          <p class="margin-remove">Using Primavera our expert Project planners can identify the activities that must be completed on time in order to complete the whole project on time, show you which tasks are able to be delayed and for how long without impacting the overall project schedule.</p>
+        </article>
+
+        <div class="grid-col"></div>
+      </section>
+
+      <section class="grid-row grey-background padding-bottom justify-evenly services">
+        <div class="grid-col"></div>
+
+        <article class="grid-col-17 cobalt-card text-center">
+          <h4 class="margin-remove">PROJECT PLANNING</h4>
+          <img src="../assets/icons/sketch.svg" alt="A pencil drawing on a piece of paper with a ruler close by." class="text-center margin-vertical-small svg-card">
+          <p class="margin-remove">Our skilled team can support your business in building and maintaining schedules to help your project managers deliver their projects to the requisite time, cost & quality that meets the business goals.</p>
+        </article>
+
+        <article class="grid-col-17 cobalt-card text-center margin-top">
+          <h4 class="margin-remove">MASTER SCHEDULE CONSTRUCTION</h4>
+          <img src="../assets/icons/calendar.svg" alt="A calendar" class="text-center margin-vertical-small svg-card">
+          <p class="margin-remove">We create and maintain Integrated Master Schedules to visualize the internal & external interdependencies between tasks, milestones and projects.</p>
+        </article>
+
+        <article class="grid-col-17 white-card-secondary text-center margin-top-large">
+          <h4 class="margin-remove">CRITICAL PATH ANALYSIS</h4>
+          <img src="../assets/icons/analysis.svg" alt="A magnifying glass looking at a whiteboard with data on it" class="text-center margin-vertical-small svg-card">
+          <p class="margin-remove">Using Primavera our expert Project planners can identify the activities that must be completed on time in order to complete the whole project on time, show you which tasks are able to be delayed and for how long without impacting the overall project schedule.</p>
+        </article>
+
+        <div class="grid-col"></div>
+      </section>
+
+
+
+
+
+    </main>
+</div>
+<script type="text/javascript" src="../js/main.js"></script>
+</body>
+</html>

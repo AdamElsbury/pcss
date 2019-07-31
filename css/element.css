@@ -334,7 +334,6 @@ side it and they will take up the remaining space.
 
 .grid-flex-end {
   display: flex;
-  align-items: center;
   justify-content: flex-end;
 }
 
@@ -509,7 +508,6 @@ vertically on devices smaller than 501px.
 .grey-background {
   background-color: #F3F3F3;
 }
-
 
 /*
 =================================================

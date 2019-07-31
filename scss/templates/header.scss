@@ -52,6 +52,23 @@
   background-size: cover;
 }
 
+// Services header
+
+.services-header {
+  background-color: $color-dark-blue;
+  min-height: 30vh;
+
+  h1 {
+    color: $color-white;
+  }
+
+  p {
+    color: $color-white;
+    font-weight: $text-weight-light;
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+  }
+}
+
 // Mobile Responsive
 
 @media screen and ( max-width: 500px ) {

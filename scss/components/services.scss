@@ -1,0 +1,22 @@
+// 3 card LAYOUT
+
+.services {
+  margin: 0 0 0 -3rem !important;
+  padding: 0 5% 3rem 5%;
+
+  article {
+    margin: 0 0 0 3rem;
+  }
+}
+
+// Mobile responsive
+
+@media screen and (max-width:500px) {
+.services {
+  margin: 0 0 0 -.5rem !important;
+
+  article {
+    margin: 0 0 1rem .5rem;
+  }
+}
+}

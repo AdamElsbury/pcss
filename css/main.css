@@ -47,6 +47,16 @@
   background-position: center;
   background-size: cover; }
 
+.services-header {
+  background-color: #015296;
+  min-height: 30vh; }
+  .services-header h1 {
+    color: #FFF; }
+  .services-header p {
+    color: #FFF;
+    font-weight: 300;
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300))); }
+
 @media screen and (max-width: 500px) {
   .header-container {
     height: 90vh; }
@@ -633,6 +643,19 @@ hr.white {
     color: #FFF;
     letter-spacing: 1px; }
 
+.cobalt-card {
+  border-radius: 19px 0 19px 19px;
+  background-color: #333333;
+  box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+  padding: 3% 2% 3% 2%; }
+  .cobalt-card h4 {
+    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+    color: #FFF; }
+  .cobalt-card p {
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 300;
+    color: #FFF; }
+
 @media screen and (max-width: 500px) {
   .white-card-secondary {
     padding: 8%; }
@@ -647,7 +670,10 @@ hr.white {
   .grey-card {
     padding: 0 2% 0 2%; }
     .grey-card p {
-      font-size: calc(11px + (12 - 11) * ((100vw - 300px) / (1600 - 300))); } }
+      font-size: calc(11px + (12 - 11) * ((100vw - 300px) / (1600 - 300))); }
+
+  .cobalt-card {
+    padding: 8%; } }
 .image-underlay {
   background: url("../assets/img/laptop.jpg");
   background-position: center;
@@ -700,5 +726,17 @@ hr.white {
 .staff p {
   font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 300; }
+
+.services {
+  margin: 0 0 0 -3rem !important;
+  padding: 0 5% 3rem 5%; }
+  .services article {
+    margin: 0 0 0 3rem; }
+
+@media screen and (max-width: 500px) {
+  .services {
+    margin: 0 0 0 -.5rem !important; }
+    .services article {
+      margin: 0 0 1rem .5rem; } }
 
 /*# sourceMappingURL=main.css.map */
