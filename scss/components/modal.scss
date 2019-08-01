@@ -8,28 +8,18 @@
   width: 100%;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
-  display: none;
 }
 
 .modal {
+  display: flex;
   opacity: 1;
-  width: 70%;
+  width: 80%;
   position: relative;
-  margin: 15% auto;
+  margin: 0 auto !important;
   background-color: #FFF;
   border-radius: 18px;
-}
 
-.modal-left {
-  background-color: #24C6DC;
-  border-radius: 18px 0 0 18px;
-  margin: 0px;
-}
-
-.modal-right {
-  padding: 5% 5% 2% 5%;
-}
-
-.modal-right button {
-  min-width: 0px !important;
-}
+  article {
+      display: flex;
+    }
+  }
