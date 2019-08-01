@@ -31,7 +31,7 @@
   min-height: 350px;
   display: block;
   flex: 1;
-  margin: 0 0 .5rem .5rem;
+  margin: 0 0 4rem .5rem;
 
   article {
     width: 70%;
@@ -79,6 +79,36 @@
   background: url("../assets/img/transport-for-wales.jpg");
 }
 
+.projects-card-2 {
+  background: url("../assets/img/sep.jpg");
+}
+
+.projects-card-3 {
+  background: url("../assets/img/babcock-wilcox.jpg");
+}
+
+.projects-card-4 {
+  background: url("../assets/img/general-electric.jpg");
+}
+
+.projects-card-5 {
+  background: url("../assets/img/pm.jpg");
+}
+
+.projects-card-6 {
+  background: url("../assets/img/atkins.jpg");
+}
+
+.projects-card-7 {
+  background: url("../assets/img/general-dynamics.jpg");
+}
+
+// Specific padding for project card containers
+
+.padding-bottom-project-card {
+  padding-bottom: 4%;
+}
+
 // Mobile Responsive
 
 @media screen and (max-width: 500px) {
@@ -106,4 +136,9 @@
       }
     }
   }
+
+  .padding-bottom-project-card {
+    padding-bottom: 5rem;
+  }
+
 }
