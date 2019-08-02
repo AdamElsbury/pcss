@@ -257,23 +257,49 @@ footer {
     border-radius: 0 0 12px 12px; } }
 .modal-container {
   top: 0;
-  left: 0;
   z-index: 1;
   height: 100%;
   width: 100%;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: scroll;
+  padding: 5%; }
 
 .modal {
   display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
   opacity: 1;
   width: 80%;
   position: relative;
-  margin: 0 auto !important;
   background-color: #FFF;
-  border-radius: 18px; }
+  border-bottom: 6px solid #FF4B11; }
   .modal article {
     display: flex; }
+  .modal p {
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300))); }
+  .modal h6 {
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    color: #015296; }
+  .modal h2 {
+    font-size: calc(20px + (25 - 20) * ((100vw - 300px) / (1600 - 300)));
+    color: #015296; }
+  .modal h4 {
+    font-size: calc(17px + (20 - 17) * ((100vw - 300px) / (1600 - 300))); }
+    .modal h4:after {
+      content: "";
+      border-bottom: 3px solid #FF4B11;
+      padding-top: 20px;
+      display: block;
+      width: 20%; }
+  .modal ul {
+    margin-bottom: 20px; }
+  .modal ul > li {
+    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+    margin-bottom: 5px; }
+  .modal strong {
+    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    color: #333333; }
 
 p {
   font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
@@ -716,14 +742,17 @@ hr.white {
       font-weight: 300; }
     .image-underlay-projects article hr {
       margin-bottom: 1em; }
-    .image-underlay-projects article a {
+    .image-underlay-projects article button {
       color: #FF4B11;
+      border: none;
+      background: none;
+      cursor: pointer;
       font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
       font-weight: 700;
       font-family: "poppins", sans-serif;
       text-decoration: none;
       transition: all .3s; }
-      .image-underlay-projects article a:hover {
+      .image-underlay-projects article button:hover {
         color: #015296; }
 
 .projects-card-1 {

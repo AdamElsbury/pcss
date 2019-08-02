@@ -58,8 +58,11 @@
       margin-bottom: 1em;
     }
 
-    a {
+    button {
       color: $color-orange;
+      border: none;
+      background: none;
+      cursor: pointer;
       font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
       font-weight: $text-weight-bold;
       font-family: $text-primary;

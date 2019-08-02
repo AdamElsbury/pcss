@@ -87,7 +87,7 @@
             <h5>SEP Professional Services LTD</h5>
             <p>Contstruction</p>
             <hr class="orange-thin">
-            <a href="#" class="margin-top">MORE INFO</a>
+            <button onclick="showModalTwo()">MORE INFO</button>
           </article>
         </div>
       </section>
@@ -98,7 +98,7 @@
             <h5 class="margin-remove">Babcock & Wilcox Volund</h5>
             <p>Renewable energy</p>
             <hr class="orange-thin">
-            <a href="#">MORE INFO</a>
+            <button onclick="showModalThree()">MORE INFO</button>
           </article>
         </div>
 
@@ -109,7 +109,7 @@
             <h5>General Electric</h5>
             <p>Oil & Gas</p>
             <hr class="orange-thin">
-            <a href="#" class="margin-top">MORE INFO</a>
+            <button onclick="showModalFour()">MORE INFO</button>
           </article>
         </div>
       </section>
@@ -120,7 +120,7 @@
             <h5 class="margin-remove">PM Group</h5>
             <p>Pharmaceutical/Steel</p>
             <hr class="orange-thin">
-            <a href="#">MORE INFO</a>
+            <button onclick="showModalFive()">MORE INFO</button>
           </article>
         </div>
 
@@ -131,7 +131,7 @@
             <h5>Atkins</h5>
             <p>Aerospace</p>
             <hr class="orange-thin">
-            <a href="#" class="margin-top">MORE INFO</a>
+            <button onclick="showModalSix()">MORE INFO</button>
           </article>
         </div>
       </section>
@@ -142,7 +142,7 @@
             <h5 class="margin-remove">General Dynamics UK Ltd</h5>
             <p>Defence land systems</p>
             <hr class="orange-thin">
-            <a href="#">MORE INFO</a>
+            <button onclick="showModalSeven()">MORE INFO</button>
           </article>
         </div>
 
@@ -158,7 +158,6 @@
               <h6>COMPANY</h6>
               <h2>Transport for Wales Rail Svcs</h2>
               <h4>Head of planning</h4>
-              <hr class="orange-thin">
             </div>
             <article>
               <div class="margin-right">
@@ -169,24 +168,302 @@
               </div>
               <div>
                 <p>Project planning</p>
-                <p>Contracted staff</p>
+                <p>Contract</p>
                 <p>£5 billion</p>
                 <p>Aug 18' - Present</p>
               </div>
             </article>
           </div>
-          <div class="grid-col padding">
+          <div class="grid-col padding-left-small padding-right-small padding-top padding-bottom">
             <h6>RESPONSIBILITIES</h6>
             <p><strong>Project planner on £5BN Transport for Wales (TfW) rail franchise.</strong></p>
             <ul>
               <li>Recruited to bring planning expertise and support to the Mobilisation team and deliver into Transition</li>
             </ul>
           </div>
-          <div class="grid-col-10 padding">
-            <button class="btn-secondary square">CLOSE</button>
+          <div class="grid-col-10 padding-top padding-right padding-bottom grid-flex-bottom">
+            <div>
+              <button class="btn-secondary square" onclick="closeModalOne()">CLOSE</button>
+            </div>
           </div>
         </article>
       </section>
+
+      <section class="modal-container" style="display:none;" id="modal-container-2">
+        <article class="modal grid-row">
+          <div class="grid-col-30 padding-left padding-top padding-bottom">
+            <div>
+              <h6>COMPANY</h6>
+              <h2>SEP Professional Services Ltd</h2>
+              <h4>Project planning</h4>
+            </div>
+            <article>
+              <div class="margin-right">
+                <p><strong>Role</strong></p>
+                <p><strong>Contract type</strong></p>
+                <p><strong>Value of contract</strong></p>
+                <p><strong>Dates</strong></p>
+              </div>
+              <div>
+                <p>Project planning</p>
+                <p>Contract</p>
+                <p>£24 million</p>
+                <p>Feb 18' - Aug 18'</p>
+              </div>
+            </article>
+          </div>
+          <div class="grid-col padding-left-small padding-right-small padding-top padding-bottom">
+            <h6>RESPONSIBILITIES</h6>
+            <p><strong>Site planner on £24M food processing plant expansion for Cargill Meats Europe.</strong></p>
+            <ul>
+              <li>Sought out to provide expert support to the project management team</li>
+              <li>Tasked to create an Integrated Master Schedule, encompassing all Sub Contractor schedules and client commissioning schedule</li>
+              <li>Tasked to develop and implement scheduling best practices and routines on site, robust schedule updates and reporting including critical path analysis, and scenario planning.</li>
+            </ul>
+          </div>
+          <div class="grid-col-10 padding-top padding-right padding-bottom grid-flex-bottom">
+            <div>
+              <button class="btn-secondary square" onclick="closeModalTwo()">CLOSE</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="modal-container" style="display:none;" id="modal-container-3">
+        <article class="modal grid-row">
+          <div class="grid-col-30 padding-left padding-top padding-bottom">
+            <div>
+              <h6>COMPANY</h6>
+              <h2>Babcock & Wilcox Volund</h2>
+              <h4>Lead Planning Engineer</h4>
+            </div>
+            <article>
+              <div class="margin-right">
+                <p><strong>Role</strong></p>
+                <p><strong>Contract type</strong></p>
+                <p><strong>Value of contract</strong></p>
+                <p><strong>Dates</strong></p>
+              </div>
+              <div>
+                <p>Lead Planning Engineer</p>
+                <p>Contract</p>
+                <p>£160 million</p>
+                <p>Aug 16' - Feb 18'</p>
+              </div>
+            </article>
+          </div>
+          <div class="grid-col padding-left-small padding-right-small padding-top padding-bottom">
+            <h6>RESPONSIBILITIES</h6>
+            <p><strong>Site construction and commissioning planner on £160M biomass power station for Glenmont/Eco2.</strong></p>
+            <ul>
+              <li>Brought in to provide expert support to the construction management team and Lead Project Planner in Denmark</li>
+              <li>May-17 moved into Lead role and assumed overall control</li>
+              <li>Created the Consortium Integrated Master Schedule, encompassing Sub Contractor, Consortium and Commissioning schedules</li>
+              <li>Implemented scheduling best practices and routines on site, setting the standards for consistent and robust schedule updates and reporting including critical path analysis, and scenario planning.</li>
+              <li>Jul-17 now directly managing a supporting planner</li>
+            </ul>
+          </div>
+          <div class="grid-col-10 padding-top padding-right padding-bottom grid-flex-bottom">
+            <div>
+              <button class="btn-secondary square" onclick="closeModalThree()">CLOSE</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="modal-container" style="display:none;" id="modal-container-4">
+        <article class="modal grid-row">
+          <div class="grid-col-30 padding-left padding-top padding-bottom">
+            <div>
+              <h6>COMPANY</h6>
+              <h2>General Electric</h2>
+              <h4>Lead Planner - Engineering, Production & Construction (EPC)</h4>
+            </div>
+            <article>
+              <div class="margin-right">
+                <p><strong>Role</strong></p>
+                <p><strong>Contract type</strong></p>
+                <p><strong>Value of contract</strong></p>
+                <p><strong>Dates</strong></p>
+              </div>
+              <div>
+                <p>Lead Planner</p>
+                <p>Contracted staff</p>
+                <p>£1.34 billion</p>
+                <p>Jun 13' - Jan 15'</p>
+              </div>
+            </article>
+          </div>
+          <div class="grid-col padding-left-small padding-right-small padding-top padding-bottom">
+            <h6>RESPONSIBILITIES</h6>
+            <p><strong>Provided on-going support, including critical path analysis/planning, what-if scenario planning, quality checks, diagnostics, and analytics using Primavera.</strong></p>
+            <ul>
+              <li>Lead planner on US$4M international bid.</li>
+              <li>Lead UK planner on US$1.3B EPC Indonesian project.</li>
+              <li>Lead planner of 11-strong planning team.</li>
+              <li>Completed and submitted contractual 90-day schedule deliverable ahead of deadline.</li>
+              <li>Finished and submitted contractual baseline schedule deliverable ahead of deadline.</li>
+            </ul>
+          </div>
+          <div class="grid-col-10 padding-top padding-right padding-bottom grid-flex-bottom">
+            <div>
+              <button class="btn-secondary square" onclick="closeModalFour()">CLOSE</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="modal-container" style="display:none;" id="modal-container-5">
+        <article class="modal">
+          <div class="grid-row">
+          <div class="grid-col-40 padding-left padding-top padding-bottom">
+            <div>
+              <h6>COMPANY</h6>
+              <h2>PM Group</h2>
+              <h4>Project planner</h4>
+            </div>
+            <article>
+              <div class="margin-right">
+                <p><strong>Role</strong></p>
+                <p><strong>Contract type</strong></p>
+                <p><strong>Value of contract</strong></p>
+                <p><strong>Dates</strong></p>
+              </div>
+              <div>
+                <p>Project planner</p>
+                <p>Contract</p>
+                <p>£430 million</p>
+                <p>Jan 15' - Aug 16'</p>
+              </div>
+            </article>
+          </div>
+          <div class="grid-col padding-left-small padding-right-small padding-top padding-bottom">
+            <h6>RESPONSIBILITIES</h6>
+            <p><strong>Focus on the critical planning and successful outcomes for a variety of projects.</strong></p>
+            <ul>
+              <p><strong>Lead planner on £40M biopharmaceutical plant construction project for MERCK SHARP & DOHME (MSD).</strong></p>
+              <li>Brought in to provide expert support to the project management team</li>
+              <li>Created the Design & Procurement, Construction, and Commissioning & Qualification schedules, and combined with the Contractor schedules to produce the integrated master schedule.</li>
+              <li>Implemented scheduling best practices and routines, setting the standards for consistent and robust schedule updates and reporting including critical path analysis, and scenario planning.</li>
+            </ul>
+            <ul>
+              <p><strong>Lead planner on £300M low calorific gas power plant project for TATA STEEL Port Talbot.</strong></p>
+              <li>Constructed the integrated master schedule from scratch</li>
+              <li>Led the PSO in development and implementation of scheduling rules and best practices.</li>
+            </ul>
+            <ul>
+              <p><strong>Senior planner on £90M infant formula processing plant construction project for DAIRYCREST.</strong></p>
+              <li>Brought in to provide expert support to the construction management team</li>
+              <li>Created the integrated master schedule, including client and contractor schedules.</li>
+              <li>Implemented scheduling best practices and routines, setting the standards for the contractors and client, driving consistent schedule updates and reporting.</li>
+            </ul>
+
+          </div>
+          <div class="grid-col-10 padding-top padding-right padding-bottom grid-flex-bottom">
+            <div>
+              <button class="btn-secondary square" onclick="closeModalFive()">CLOSE</button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="modal-container" style="display:none;" id="modal-container-6">
+        <article class="modal">
+          <div class="grid-row padding">
+          <div class="grid-col-40 padding-right-small">
+            <div>
+              <h6>COMPANY</h6>
+              <h2>Atkins</h2>
+              <h4>Project Planner & Coordinator</h4>
+            </div>
+            <article>
+              <div class="margin-right">
+                <p><strong>Role</strong></p>
+                <p><strong>Contract type</strong></p>
+                <p><strong>Value of contract</strong></p>
+                <p><strong>Dates</strong></p>
+              </div>
+              <div>
+                <p>Project planning and coordination</p>
+                <p>Contract</p>
+                <p>N/A</p>
+                <p>Jun 13' - Jan 15'</p>
+              </div>
+            </article>
+          </div>
+          <div class="grid-col">
+            <h6>RESPONSIBILITIES</h6>
+            <p><strong>Updated project schedules with multinational teams across the UK, Netherlands, India & USA. Reviewed risk registers and resource plans to ensure all project requirements were met. Constructed dashboards for ‘single page’ programme and project reporting.</strong></p>
+            <ul>
+              <li>Built (from scratch) and controlled project and programme schedules for Airbus A320 & A321 New Engine Option (NEO) projects.</li>
+              <li>Developed and implemented scheduling rules and best practices which had not previously existed.</li>
+              <li>Appointed as Business Division Microsoft Project and scheduling subject matter expert.</li>
+            </ul>
+          </div>
+          </div>
+          <div class="grid-row padding-right padding-bottom">
+            <div class="grid-col grid-flex-bottom">
+              <div>
+                <button class="btn-secondary square" onclick="closeModalSix()">CLOSE</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="modal-container" style="display:none;" id="modal-container-7">
+        <article class="modal">
+          <div class="grid-row padding">
+            <div class="grid-col-40 padding-right-small">
+              <div>
+                <h6>COMPANY</h6>
+                <h2>General Dynamics UK Ltd</h2>
+                <h4>Lead Project Planner & Coordinator</h4>
+              </div>
+              <article>
+                <div class="margin-right">
+                  <p><strong>Role</strong></p>
+                  <p><strong>Contract type</strong></p>
+                  <p><strong>Value of contract</strong></p>
+                  <p><strong>Dates</strong></p>
+                </div>
+                <div>
+                  <p>Project planning and coordination</p>
+                  <p>Contracted staff</p>
+                  <p>£507 million +</p>
+                  <p>Sep 06' - Jun 12'</p>
+                </div>
+              </article>
+            </div>
+            <div class="grid-col">
+              <h6>RESPONSIBILITIES</h6>
+              <p><strong>Led a team of coordinators and planners for all aspects of manpower planning, performance control and HR activities. Reviewed schedules, risk registers and resource plans to ensure all project requirements were met and management was informed of progress.</strong></p>
+              <ul>
+                <li>Responsible for integrated programme schedule, costed responsibility assignment matrix and WBS on £500m armoured vehicle ANSI 748-A EVMS compliant programme.</li>
+                <li>Responsible for a team five planners of mixed seniority and experience</li>
+                <li>Programme Planner responsible for four project schedules (all projects in excess of £2M).</li>
+                <li>Rebuilt team and morale following poor performance of previous leader.</li>
+                <li>Led a team conducting a MoD-based integrated baseline review which encompasses £5m milestone and succession payments.</li>
+                <li>Lead planner & coordinator on multiple £M bids.</li>
+                <li>Controlled 6+ project schedules, ensuring activities were in accordance with timelines.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="grid-row padding-bottom padding-right">
+            <div class="grid-col grid-flex-bottom">
+              <div>
+                <button class="btn-secondary square" onclick="closeModalSeven()">CLOSE</button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+
+
+
+
+
 
 
       <section class="grid-row padding">
