@@ -15,13 +15,13 @@
   <nav class="sidebar mobile-hide">
       <img src="../assets/icons/logo.svg" alt="The logo for PCSS Ltd" class="margin-top svg-logo">
       <ul class="nav-links">
-        <li class="nav-item"><a href="index.html">HOME</a></li>
-        <li class="nav-item"><a href="aboutus.html">ABOUT US</a></li>
-        <li class="nav-item"><a href="services.html">SERVICES</a></li>
-        <li class="nav-item"><a href="projects.html">PROJECTS</a></li>
-        <li class="nav-item"><a href="#market">MARKET</a></li>
+        <li class="nav-item"><a href="../pages/index.html">HOME</a></li>
+        <li class="nav-item"><a href="../pages/aboutus.html">ABOUT US</a></li>
+        <li class="nav-item"><a href="../pages/services.html">SERVICES</a></li>
+        <li class="nav-item"><a href="../pages/projects.html">PROJECTS</a></li>
+        <li class="nav-item"><a href="../pages/index.html#markets">MARKETS</a></li>
       </ul>
-      <a href="" class="margin-bottom width-100 nav-link-mini-a">
+      <a href="#contact" class="margin-bottom width-100 nav-link-mini-a">
         <img src="../assets/icons/envelope.svg" alt="An envelope signifying an email button" class="svg-nav-link-mini">
       </a>
   </nav>
@@ -34,11 +34,11 @@
       <img src="../assets/icons/close.svg" alt="" class="svg-mobile-hamburger mobile-menu-close" onclick="closeMobileMenu()">
       <article class="mobile-nav-container">
         <ul>
-          <li><a href="#whatido" onclick="closeMobileMenuLinkClick()"><h3>HOME</h3></a></li>
-          <li><a href="#skills" onclick="closeMobileMenuLinkClick()"><h3>ABOUT US</h3></a></li>
-          <li><a href="#projects" onclick="closeMobileMenuLinkClick()"><h3>SERVICES</h3></a></li>
-          <li><a href="#cv" onclick="closeMobileMenuLinkClick()"><h3>PROJECTS</h3></a></li>
-          <li><a href="#aboutme" onclick="closeMobileMenuLinkClick()"><h3>MARKETS</h3></a></li>
+          <li><a href="../pages/index.html" onclick="closeMobileMenuLinkClick()"><h3>HOME</h3></a></li>
+          <li><a href="../pages/aboutus.html" onclick="closeMobileMenuLinkClick()"><h3>ABOUT US</h3></a></li>
+          <li><a href="../pages/services.html" onclick="closeMobileMenuLinkClick()"><h3>SERVICES</h3></a></li>
+          <li><a href="../pages/projects.html" onclick="closeMobileMenuLinkClick()"><h3>PROJECTS</h3></a></li>
+          <li><a href="../pages/index.html#markets" onclick="closeMobileMenuLinkClick()"><h3>MARKETS</h3></a></li>
           <li><a href="mailto:adam.john.elsbury@gmail.com"><button class="btn-secondary square btn-white margin-top-large">GET IN TOUCH</button></a></li>
         </ul>
       </article>
@@ -57,8 +57,8 @@
           <hr class="white">
           <h4 class="white-text">Looking for site & consultancy opportunities in South Wales</h4>
           <div class="button-container">
-            <button class="btn-primary square margin-right margin-top">SEND EMAIL</button>
-            <button class="btn-secondary square">WHAT WE DO</button>
+            <a href="#contact"><button class="btn-primary square margin-right margin-top">SEND EMAIL</button></a>
+            <a href="../pages/aboutus.html"><button class="btn-secondary square">WHAT WE DO</button></a>
           </div>
         </div>
       </header>
@@ -113,7 +113,7 @@
           <p>We have a proven track record of delivering projects across a broad range of markets including Aviation & Defence, Oil & Gas, Pharmaceuticals, Rail and more.</p>
           <p>Our team has over 12 years of industry experience and are full members of the Association for Project Management. We are advanced users of Primavera P6 & Asta Powerproject and have current CSCS cards.</p>
           <div class="width-100">
-            <button class="btn-secondary square margin-top">MORE INFO</button>
+            <a href="../pages/aboutus.html"><button class="btn-secondary square margin-top">MORE INFO</button></a>
           </div>
         </div>
       </section>
@@ -156,7 +156,7 @@
 
       <div class="grid-row grey-background">
         <div class="grid-col text-center">
-          <button class="btn-secondary square">VIEW ALL</button>
+          <a href="../pages/services.html"><button class="btn-secondary square">VIEW ALL</button></a>
         </div>
       </div>
 
@@ -304,11 +304,11 @@
 
       <div class="grid-row grey-background">
         <div class="grid-col text-center">
-          <button class="btn-secondary square">VIEW ALL</button>
+          <a href="../pages/projects.html"><button class="btn-secondary square">VIEW ALL</button></a>
         </div>
       </div>
 
-      <section class="grid-row padding-left padding-right padding-top grey-background grid-row-reset-mobile">
+      <section class="grid-row padding-left padding-right padding-top grey-background grid-row-reset-mobile" id="markets">
             <img src="../assets/icons/handshake.svg" alt="A graph showing fake data" class="margin-right svg-title">
           <div class="grid-col">
             <h2 class="margin-remove">Markets.</h2>
@@ -346,7 +346,7 @@
         </article>
       </section>
 
-      <section class="grid-row grey-background padding">
+      <section class="grid-row grey-background padding" id="contact">
         <article class="grid-col text-center">
           <h2>Interested?</h2>
           <p>If you want to discuss a project fire over an email or give us a call.</p>

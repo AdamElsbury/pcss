@@ -65,3 +65,11 @@
     color: $color-cobalt;
   }
 }
+
+// Mobile responsive
+
+@media screen and (max-width:500px) {
+  .modal-container {
+    padding: 10%;
+  }
+}
