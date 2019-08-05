@@ -27,10 +27,12 @@
   width: 40%; }
   .header-content h3 {
     font-weight: 400;
-    margin: 1em; }
+    margin: 1em;
+    font-size: calc(17px + (24 - 17) * ((100vw - 300px) / (1600 - 300))); }
   .header-content h4 {
     font-weight: 300;
-    margin-top: 1em; }
+    margin-top: 1em;
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300))); }
 
 .hero-container {
   min-height: 60vh; }
@@ -62,7 +64,7 @@
     height: 90vh; }
 
   .header-content {
-    width: 100%; } }
+    width: 90%; } }
 @media (min-width: 501px) and (max-width: 900px) {
   .header-content {
     width: 90%; } }
@@ -189,14 +191,16 @@ footer {
 
 @media screen and (max-width: 500px) {
   .btn-primary {
-    font-size: 12px;
+    font-size: 13px;
     min-height: 40px;
-    min-width: 130px; }
+    min-width: 130px;
+    font-weight: 400; }
 
   .btn-secondary {
-    font-size: 12px;
+    font-size: 13px;
     min-height: 40px;
-    min-width: 130px; } }
+    min-width: 130px;
+    font-weight: 400; } }
 @media (min-width: 500px) and (max-width: 1024px) {
   .btn-secondary {
     font-size: 1.1em;
@@ -603,7 +607,7 @@ hr.white {
     font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
     color: #015296; }
   .white-card-secondary p {
-    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 300; }
 
 .white-card-projects {

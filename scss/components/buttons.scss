@@ -100,15 +100,17 @@
 
 @media screen and ( max-width: 500px ) {
   .btn-primary {
-    font-size: 12px;
+    font-size: 13px;
     min-height: 40px;
     min-width: 130px;
+    font-weight: $text-weight-regular;
   }
 
   .btn-secondary {
-    font-size: 12px;
+    font-size: 13px;
     min-height: 40px;
     min-width: 130px;
+    font-weight: $text-weight-regular;
   }
 }
 
