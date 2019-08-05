@@ -57,7 +57,7 @@
   .services-header p {
     color: #FFF;
     font-weight: 300;
-    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300))); }
+    font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300))); }
 
 @media screen and (max-width: 500px) {
   .header-container {
@@ -271,13 +271,12 @@ footer {
 
 .modal {
   display: flex;
-  overflow-y: scroll;
   flex-direction: column;
   opacity: 1;
   width: 80%;
   position: relative;
   background-color: #FFF;
-  border-bottom: 6px solid #FF4B11; }
+  border-radius: 12px; }
   .modal article {
     display: flex; }
   .modal p {
@@ -307,7 +306,15 @@ footer {
 
 @media screen and (max-width: 500px) {
   .modal-container {
-    padding: 10%; } }
+    padding: 10%; }
+
+  .modal {
+    overflow-y: scroll; }
+    .modal:after {
+      content: "";
+      display: block;
+      height: 30px;
+      width: 100%; } }
 p {
   font-size: calc(15px + (17 - 15) * ((100vw - 300px) / (1600 - 300)));
   color: #333333;
@@ -412,7 +419,7 @@ hr.white {
     font-weight: 700;
     transition: .3s all;
     letter-spacing: 1.5px;
-    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300))); }
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))); }
     .internal-nav-bar a:hover {
       color: #015296; }
 
@@ -567,7 +574,8 @@ hr.white {
     margin: 0 auto; }
 
   .svg-title {
-    max-width: 12%; }
+    max-width: 12%;
+    margin-left: .5rem; }
 
   .svg-card {
     max-width: 15%;
@@ -663,7 +671,7 @@ hr.white {
   margin-bottom: 1rem; }
   .orange-card p {
     color: #FFF;
-    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 300; }
   .orange-card h6 {
     font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
@@ -680,7 +688,7 @@ hr.white {
     font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
     color: #FFF; }
   .cobalt-card p {
-    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300)));
     font-weight: 300;
     color: #FFF; }
 
@@ -802,6 +810,8 @@ hr.white {
     margin: 0 0 5rem .5rem; }
     .image-underlay-projects article hr {
       width: 30%; }
+    .image-underlay-projects article button {
+      font-size: calc(13px + (15 - 13) * ((100vw - 300px) / (1600 - 300))); }
 
   .padding-bottom-project-card {
     padding-bottom: 5rem; } }
@@ -814,7 +824,7 @@ hr.white {
   color: #FF4B11;
   font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300))); }
 .steps p {
-  font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 300; }
 
 @media screen and (max-width: 500px) {
@@ -827,7 +837,7 @@ hr.white {
   font-weight: 400;
   color: #333333; }
 .staff p {
-  font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300)));
   font-weight: 300; }
 
 .services {

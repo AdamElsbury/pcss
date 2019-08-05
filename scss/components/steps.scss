@@ -15,7 +15,7 @@
   }
 
   p {
-    font-size: calc(12px + (15 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(14px + (15 - 14) * ((100vw - 300px) / (1600 - 300)));
     font-weight: $text-weight-light;
   }
 }

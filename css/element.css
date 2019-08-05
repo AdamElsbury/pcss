@@ -702,6 +702,15 @@ vertically on devices smaller than 501px.
   padding-bottom: 8%;
 }
 
+.padding-large-left-mobile-only {
+  padding-left: 8%;
+}
+
+.padding-large-right-mobile-only {
+  padding-right: 8%;
+}
+
+
 /* Padding resets */
 
 .padding-large-reset-mobile {

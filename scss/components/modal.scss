@@ -13,13 +13,12 @@
 
 .modal {
   display: flex;
-  overflow-y: scroll;
   flex-direction: column;
   opacity: 1;
   width: 80%;
   position: relative;
   background-color: #FFF;
-  border-bottom: 6px solid $color-orange;
+  border-radius: $border-radius-primary;
 
   article {
       display: flex;
@@ -71,5 +70,16 @@
 @media screen and (max-width:500px) {
   .modal-container {
     padding: 10%;
+  }
+
+  .modal {
+    overflow-y: scroll;
+
+    &:after {
+      content: "";
+      display: block;
+      height: 30px;
+      width: 100%;
+    }
   }
 }
