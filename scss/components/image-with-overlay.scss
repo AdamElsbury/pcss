@@ -149,6 +149,8 @@
   }
 }
 
+// Tablet
+
 @media (min-width: 501px) and (max-width: 768px) {
 .image-underlay {
   width: 90% !important;
@@ -158,5 +160,9 @@
     right: -61px;
     width: 75%;
   }
+}
+
+.image-underlay-projects {
+  margin: 0 0 4rem 1rem;
 }
 }

@@ -83,6 +83,7 @@
 
   p {
     color: $color-white;
+    font-size: calc(14px + (17 - 14) * ((100vw - 300px) / (1600 - 300)));
   }
 }
 
