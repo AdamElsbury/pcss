@@ -83,3 +83,23 @@
     }
   }
 }
+
+// Tablet responsive
+
+@media (min-width: 501px) and (max-width: 768px) {
+.modal-container {
+  padding: 10%;
+
+  .modal {
+    overflow-y: scroll;
+
+    &:after {
+      content: "";
+      display: block;
+      height: 30px;
+      width: 100%;
+    }
+  }
+
+}
+}
