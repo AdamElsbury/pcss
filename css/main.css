@@ -96,6 +96,12 @@ main {
 @media screen and (max-width: 500px) {
   .key-stats {
     padding: 5%; } }
+@media (min-width: 501px) and (max-width: 768px) {
+  .key-stats {
+    padding: 3%;
+    margin: 0 0 0 -.5rem; }
+    .key-stats div {
+      margin-bottom: 0; } }
 footer {
   background-color: #333333; }
   footer a {
@@ -201,11 +207,18 @@ footer {
     min-height: 40px;
     min-width: 130px;
     font-weight: 400; } }
-@media (min-width: 500px) and (max-width: 1024px) {
-  .btn-secondary {
-    font-size: 1.1em;
+@media (min-width: 501px) and (max-width: 768px) {
+  .btn-primary {
+    font-size: 15px;
     min-height: 45px;
-    min-width: 135px; } }
+    min-width: 135px;
+    font-weight: 400; }
+
+  .btn-secondary {
+    font-size: 15px;
+    min-height: 45px;
+    min-width: 135px;
+    font-weight: 400; } }
 .contact label {
   display: block;
   font-family: "poppins", sans-serif;
@@ -259,6 +272,11 @@ footer {
 @media screen and (max-width: 500px) {
   .contact-side-container {
     border-radius: 0 0 12px 12px; } }
+@media (min-width: 501px) and (max-width: 768px) {
+  .contact-side-container {
+    border-radius: 0 0 12px 12px; }
+    .contact-side-container p {
+      font-size: 15px; } }
 .modal-container {
   top: 0;
   z-index: 1;
@@ -493,6 +511,9 @@ hr.white {
 
   .internal-nav-bar a {
     font-weight: 400; } }
+@media (min-width: 501px) and (max-width: 768px) {
+  .nav-container {
+    padding: 3%; } }
 .svg-logo {
   max-width: 30%;
   height: auto;
@@ -591,10 +612,16 @@ hr.white {
 @media (min-width: 501px) and (max-width: 768px) {
   .isometric {
     margin: 0 auto;
-    max-width: 70%; }
+    max-width: 56%; }
 
   .svg-title {
-    max-width: 12%; } }
+    max-width: 8%; }
+
+  .svg-contact-small {
+    max-width: 6%; }
+
+  .svg-contact-iso {
+    max-width: 50%; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   .isometric {
     margin: 0 auto; }
@@ -851,5 +878,11 @@ hr.white {
     margin: 0 0 0 -.5rem !important; }
     .services article {
       margin: 0 0 1rem .5rem; } }
+@media (min-width: 501px) and (max-width: 768px) {
+  .services-tablet {
+    flex-wrap: wrap; }
+    .services-tablet article {
+      flex: none;
+      width: 44%; } }
 
 /*# sourceMappingURL=main.css.map */

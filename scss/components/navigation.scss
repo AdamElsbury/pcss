@@ -140,3 +140,11 @@
   }
 }
 }
+
+// Tablet responsive
+
+@media (min-width: 501px) and (max-width: 768px) {
+.nav-container {
+  padding: 3%;
+}
+}

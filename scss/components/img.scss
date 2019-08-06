@@ -120,10 +120,16 @@
 @media (min-width: 501px) and (max-width: 768px) {
   .isometric {
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 56%;
   }
   .svg-title {
-    max-width: 12%;
+    max-width: 8%;
+  }
+  .svg-contact-small {
+    max-width: 6%;
+  }
+  .svg-contact-iso {
+    max-width: 50%;
   }
 }
 

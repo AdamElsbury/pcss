@@ -116,10 +116,18 @@
 
 // Tablet
 
-@media (min-width: 500px) and ( max-width: 1024px ) {
-  .btn-secondary {
-    font-size: 1.1em;
+@media (min-width: 501px) and ( max-width: 768px ) {
+  .btn-primary {
+    font-size: 15px;
     min-height: 45px;
     min-width: 135px;
+    font-weight: $text-weight-regular;
+  }
+
+  .btn-secondary {
+    font-size: 15px;
+    min-height: 45px;
+    min-width: 135px;
+    font-weight: $text-weight-regular;
   }
 }

@@ -484,7 +484,7 @@ row flex direction to column to stack the columns
 vertically on devices smaller than 501px.
 */
 
-@media screen and ( max-width: 860px ) {
+@media screen and ( max-width: 768px ) {
 .grid-row {
   flex-direction: column;
   }
@@ -503,6 +503,11 @@ vertically on devices smaller than 501px.
 }
 }
 
+@media (min-width: 501px) and ( max-width: 768px ) {
+  .grid-row-reset-tablet {
+  flex-direction: row !important;
+  }
+}
 /*
 =================================================
 =========           BACKGROUNDS         =========
