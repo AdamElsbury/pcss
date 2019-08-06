@@ -30,3 +30,18 @@
     }
   }
 }
+
+// Tablet responsive
+
+@media (min-width: 501px) and ( max-width: 768px ) {
+  .steps {
+
+    img {
+      max-width: 26%;
+    }
+
+    p {
+      margin: 0 20% 0 20%;
+    }
+  }
+}

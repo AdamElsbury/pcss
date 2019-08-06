@@ -147,5 +147,16 @@
   .padding-bottom-project-card {
     padding-bottom: 5rem;
   }
+}
 
+@media (min-width: 501px) and (max-width: 768px) {
+.image-underlay {
+  width: 90% !important;
+  article {
+    left: auto;
+    bottom: -75px;
+    right: -61px;
+    width: 75%;
+  }
+}
 }

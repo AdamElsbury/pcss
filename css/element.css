@@ -822,6 +822,21 @@ vertically on devices smaller than 501px.
 .margin-remove-tablet-only {
   margin: 0 !important;
 }
+
+/* Padding */
+
+.padding-large-bottom-tablet-only {
+  padding-bottom: 12%;
+}
+.padding-tablet-only {
+  padding: 5%;
+}
+
+/* Text alignment */
+
+.text-center-tablet-only {
+  text-align: center;
+}
 }
 
 /*
