@@ -20,7 +20,7 @@
 
 // Mobile responsive
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
   .key-stats {
     padding: 5%;
   }
@@ -28,7 +28,7 @@
 
 // Tablet responsive
 
-@media (min-width: 501px) and ( max-width: 768px ) {
+@media (min-width: 720px) and ( max-width: 1024px ) {
   .key-stats {
     padding: 3%;
     margin: 0 0 0 -.5rem;

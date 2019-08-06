@@ -93,7 +93,7 @@
   margin: 10% 10% 0% 0%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
   .isometric {
     margin: 0 auto;
   }
@@ -117,7 +117,7 @@
 
 // Tablet
 
-@media (min-width: 501px) and (max-width: 768px) {
+@media (min-width: 721px) and (max-width: 2024px) {
   .isometric {
     margin: 0 auto;
     max-width: 56%;
@@ -135,16 +135,5 @@
     max-width: 65%;
     margin: 0 auto;
     display: block;
-  }
-}
-
-// Laptop
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .isometric {
-    margin: 0 auto;
-  }
-  .svg-title {
-    max-width: 9%;
   }
 }

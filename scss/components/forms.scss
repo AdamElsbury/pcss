@@ -74,7 +74,7 @@
 }
 
 // Mobile Responsive
-@media screen and ( max-width: 500px ) {
+@media screen and ( max-width: 720px ) {
 .contact-side-container {
   border-radius: 0 0 12px 12px;
 }
@@ -82,7 +82,7 @@
 
 // Tablet responsive
 
-@media (min-width: 501px) and (max-width: 768px) {
+@media (min-width: 721px) and (max-width: 1024px) {
 .contact-side-container {
   border-radius: 0 0 12px 12px;
 

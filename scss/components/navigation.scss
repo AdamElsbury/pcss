@@ -51,7 +51,7 @@
 
 // Mobile navigation menu
 
-@media screen and ( max-width: 860px ) {
+@media screen and ( max-width: 1024px ) {
 .hamburger-button {
   border: none;
   background-color: transparent;
@@ -143,7 +143,7 @@
 
 // Tablet responsive
 
-@media (min-width: 501px) and (max-width: 768px) {
+@media (min-width: 721px) and (max-width: 1024px) {
 .nav-container {
   padding: 3%;
 }

@@ -98,7 +98,7 @@
 
 // Mobile
 
-@media screen and ( max-width: 500px ) {
+@media screen and ( max-width: 720px ) {
   .btn-primary {
     font-size: 13px;
     min-height: 40px;
@@ -116,7 +116,7 @@
 
 // Tablet
 
-@media (min-width: 501px) and ( max-width: 768px ) {
+@media (min-width: 721px) and ( max-width: 1024px ) {
   .btn-primary {
     font-size: 15px;
     min-height: 45px;

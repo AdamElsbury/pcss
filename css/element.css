@@ -251,7 +251,7 @@ Apply specific width to elements.
 
 /* Make something not visible on desktop viewports */
 
-@media screen and ( min-width: 860px ) {
+@media screen and ( min-width: 1024px ) {
   .desktop-hide {
     display: none !important;
   }
@@ -484,7 +484,7 @@ row flex direction to column to stack the columns
 vertically on devices smaller than 501px.
 */
 
-@media screen and ( max-width: 768px ) {
+@media screen and ( max-width: 1024px ) {
 .grid-row {
   flex-direction: column;
   }
@@ -503,7 +503,7 @@ vertically on devices smaller than 501px.
 }
 }
 
-@media (min-width: 501px) and ( max-width: 768px ) {
+@media (min-width: 720px) and ( max-width: 1024px ) {
   .grid-row-reset-tablet {
   flex-direction: row !important;
   }
@@ -528,7 +528,7 @@ vertically on devices smaller than 501px.
 
 /* Media queries to make the layout work on mobile */
 
-@media screen and ( max-width: 860px ) {
+@media screen and ( max-width: 1024px ) {
   .mobile-hide {
     display: none;
   }
@@ -586,7 +586,7 @@ vertically on devices smaller than 501px.
 
 /* Text alignments */
 
-@media screen and ( max-width: 500px ) {
+@media screen and ( max-width: 720px ) {
   .text-center-mobile-only {
     text-align: center;
   }
@@ -604,7 +604,7 @@ vertically on devices smaller than 501px.
 
 /* MARGINS */
 
-@media screen and ( max-width: 500px ) {
+@media screen and ( max-width: 720px ) {
 .margin, .margin-mobile-only {
   margin: 1em;
 }
@@ -740,7 +740,7 @@ vertically on devices smaller than 501px.
 =================================================
 */
 
-@media (min-width: 501px) and (max-width: 1024px) {
+@media (min-width: 720px) and (max-width: 1024px) {
   .grid-row {
     margin: 0 0 0 -1rem;
   }
@@ -758,7 +758,7 @@ vertically on devices smaller than 501px.
 
 /* Padding and margin values */
 
-@media ( min-width: 501px ) and ( max-width: 1024px ) {
+@media ( min-width: 720px ) and ( max-width: 1024px ) {
 .margin, .margin-tablet-only {
   margin: 1.5em;
 }
