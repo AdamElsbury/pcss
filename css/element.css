@@ -251,7 +251,7 @@ Apply specific width to elements.
 
 /* Make something not visible on desktop viewports */
 
-@media screen and ( min-width: 1024px ) {
+@media screen and ( min-width: 1280px ) {
   .desktop-hide {
     display: none !important;
   }
@@ -866,6 +866,36 @@ vertically on devices smaller than 501px.
 
 /*
 =================================================
-=========      SMALL DESKTOP            =========
+=========      SMALL LAPTOP            =========
 =================================================
 */
+
+/* hiding elements */
+
+@media (min-width: 1025px) and ( max-width: 1280px ) {
+.small-laptop-hide {
+  display: none;
+}
+
+/* Padding values */
+
+.padding-large-laptop-only {
+  padding: 8%;
+}
+.padding-large-top-laptop-only {
+  padding-top: 8%;
+}
+.padding-large-right-laptop-only {
+  padding-right: 8%;
+}
+.padding-large-left-laptop-only {
+  padding-left: 8%;
+}
+.padding-large-bottom-laptop-only {
+  padding-bottom: 8%;
+}
+.padding-top-remove-small-laptop-only {
+  padding-top: 0;
+}
+
+}

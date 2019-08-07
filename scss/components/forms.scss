@@ -91,3 +91,11 @@
   }
 }
 }
+
+// Small laptop Responsive
+
+@media (min-width: 1025px) and ( max-width: 1280px ) {
+  .contact-container {
+    width: 90% !important;
+  }
+}

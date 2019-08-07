@@ -96,3 +96,11 @@
     min-height: 0;
   }
 }
+
+// Small laptop responsive
+
+@media (min-width: 1025px) and ( max-width: 1280px ) {
+  .header-content {
+    width: 55%;
+  }
+}

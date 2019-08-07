@@ -75,6 +75,9 @@
 
   .hero-container {
     min-height: 0; } }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .header-content {
+    width: 55%; } }
 main {
   z-index: 9998;
   width: 90%;
@@ -281,6 +284,9 @@ footer {
     border-radius: 0 0 12px 12px; }
     .contact-side-container p {
       font-size: 15px; } }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .contact-container {
+    width: 90% !important; } }
 .modal-container {
   top: 0;
   z-index: 1;
@@ -437,7 +443,7 @@ hr.white {
   color: #333333;
   transition: all .3s;
   letter-spacing: 0.1em;
-  font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300))); }
+  font-size: calc(9px + (14 - 9) * ((100vw - 300px) / (1600 - 300))); }
   .sidebar ul > li > a:hover {
     color: #FF4B11; }
 
@@ -641,6 +647,9 @@ hr.white {
     max-width: 65%;
     margin: 0 auto;
     display: block; } }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .svg-card {
+    max-width: 14%; } }
 .white-card {
   border-radius: 12px;
   background-color: #FFF;
@@ -751,6 +760,12 @@ hr.white {
 
   .cobalt-card {
     padding: 8%; } }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .white-card-projects {
+    margin: 0 0 3rem 3rem !important; }
+
+  .white-card-projects-container {
+    margin: 0 0 0 -3rem !important; } }
 .image-underlay {
   background: url("../assets/img/laptop.jpg");
   background-position: center;
@@ -929,6 +944,14 @@ hr.white {
     flex-wrap: wrap; }
     .services-index article {
       margin: 0 0 1rem 1rem;
+      width: 40%;
+      flex: auto; } }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .services-index {
+    margin: 0 0 0 -3rem !important;
+    flex-wrap: wrap; }
+    .services-index article {
+      margin: 0 0 3rem 3rem;
       width: 40%;
       flex: auto; } }
 

@@ -21,7 +21,7 @@
   color: $color-cobalt;
   transition: all .3s;
   letter-spacing: 0.1em;
-  font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(9px + (14 - 9) * ((100vw - 300px) / (1600 - 300)));
 
   &:hover {
     color: $color-orange;
