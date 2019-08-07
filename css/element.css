@@ -470,7 +470,7 @@ resets.
 */
 
 .grid-row-reset-3 {
-  margin: 0 0 0 -3rem !important;
+  margin: 0 0 0 -3rem;
 }
 
 .grid-col-reset-3 {
@@ -547,8 +547,12 @@ vertically on devices smaller than 501px.
     padding-top: 0 !important;
   }
 
+  .grid-row-reset-3 {
+    margin: 0 0 0 -1rem;
+  }
+
   .grid-col-reset-3 {
-    margin: 0 0 1rem 0;
+    margin: 0 0 1rem 1rem;
   }
 
 .order-1-mobile {
@@ -844,8 +848,13 @@ vertically on devices smaller than 501px.
 .padding-large-bottom-tablet-only {
   padding-bottom: 12%;
 }
+
 .padding-tablet-only {
   padding: 5%;
+}
+
+.padding-small-tablet-only {
+  padding: 3%;
 }
 
 /* Text alignment */
