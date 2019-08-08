@@ -166,3 +166,16 @@
   margin: 0 0 7rem 1rem;
 }
 }
+
+// Small laptop responsive
+
+@media (min-width: 1025px) and ( max-width: 1280px ) {
+  .image-underlay {
+    width: 38% !important;
+    margin-bottom: 3em !important;
+  }
+
+  .image-underlay-projects {
+    min-height: 270px;
+  }
+}

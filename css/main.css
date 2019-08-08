@@ -882,6 +882,13 @@ hr.white {
 
   .image-underlay-projects {
     margin: 0 0 7rem 1rem; } }
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .image-underlay {
+    width: 38% !important;
+    margin-bottom: 3em !important; }
+
+  .image-underlay-projects {
+    min-height: 270px; } }
 .steps img {
   max-width: 90%;
   height: auto;
@@ -953,6 +960,9 @@ hr.white {
     .services-index article {
       margin: 0 0 3rem 3rem;
       width: 40%;
-      flex: auto; } }
+      flex: auto; }
+
+  .services article {
+    width: 22%; } }
 
 /*# sourceMappingURL=main.css.map */

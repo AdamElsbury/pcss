@@ -897,5 +897,8 @@ vertically on devices smaller than 501px.
 .padding-top-remove-small-laptop-only {
   padding-top: 0;
 }
+.padding-right-12-sl-only {
+  padding-right: 12%;
+}
 
 }
