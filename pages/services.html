@@ -127,33 +127,33 @@
           <div class="grid-row">
             <div class="grid-col-60 padding padding-large-mobile-only">
               <h5 class="margin-bottom-mobile-only">SEND US A MESSAGE</h5>
-              <form action="" class="contact">
+              <form action="https://formspree.io/mvogwgvk" method="POST" class="contact">
                 <div class="grid-row">
                   <div class="grid-col field">
                     <div>
-                      <label class="input-header" for="name">Your name</label>
-                      <input type="text" id="name">
-                      </div>
-                    </div>
-                    <div class="grid-col field">
-                      <label class="input-header" for="email">Email address</label>
-                      <input type="text" id="email">
+                    <label class="input-header" for="name">Your name</label>
+                    <input type="text" id="name" name="name">
                     </div>
                   </div>
-                  <div class="grid-row">
-                    <div class="grid-col field">
-                      <label class="input-header" for="phone">Phone number</label>
-                      <input type="text" id="phone">
-                    </div>
-                    <div class="grid-col field">
-                      <label class="input-header" for="company">Company</label>
-                      <input type="text" id="company">
-                    </div>
+                  <div class="grid-col field">
+                    <label class="input-header" for="email">Email address</label>
+                    <input type="text" id="email" name="email">
                   </div>
-                  <div class="grid-row">
-                    <div class="grid-col field">
-                      <label for="message">Message</label>
-                      <textarea id="message"></textarea>
+                </div>
+                <div class="grid-row">
+                  <div class="grid-col field">
+                    <label class="input-header" for="phone">Phone number</label>
+                    <input type="text" id="phone" name="phone">
+                  </div>
+                  <div class="grid-col field">
+                    <label class="input-header" for="company">Company</label>
+                    <input type="text" id="company" name="company">
+                  </div>
+                </div>
+                <div class="grid-row">
+                  <div class="grid-col field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
                   </div>
                 </div>
               </form>
