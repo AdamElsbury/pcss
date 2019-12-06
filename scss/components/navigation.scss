@@ -28,6 +28,12 @@
   }
 }
 
+.nav-social-media-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 // Internal nav bar on About us
 
 .internal-nav-bar {
@@ -82,6 +88,13 @@
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.nav-social-media-container {
+  display: block;
+  width: 100%;
+  flex: none;
+}
+
 
 .mobile-nav-overlay {
   background-color: #333333;
